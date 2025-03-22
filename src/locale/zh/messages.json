@@ -1,0 +1,2770 @@
+{
+  "appName": {
+    "message": "iTab",
+    "description": "扩展程序的名称，显示在网上商店中。"
+  },
+  "appShortName": {
+    "message": "iTab",
+    "description": "扩展程序的名称，显示在网上商店中。"
+  },
+  "appDescription": {
+    "message": "一款中性的新标签页，用您选择的颜色加以点缀。在 iTab 中自定义布局、样式、背景和书签。",
+    "description": "扩展程序的描述，显示在网上商店中。"
+  },
+  "menuNavDebugLabel": {
+    "message": "调试",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavDebugSubNavShowcase": {
+    "message": "展示",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavDebugSubNavBookmark": {
+    "message": "书签",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeLabel": {
+    "message": "主题",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavPreset": {
+    "message": "预设",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavSaved": {
+    "message": "已保存",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavStyle": {
+    "message": "样式",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavColor": {
+    "message": "颜色",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavAccent": {
+    "message": "强调色",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavFont": {
+    "message": "字体",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavRadius": {
+    "message": "圆角",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavShadow": {
+    "message": "阴影",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavShade": {
+    "message": "着色",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavOpacity": {
+    "message": "不透明度",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavBackground": {
+    "message": "背景",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavLayout": {
+    "message": "布局",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavHeader": {
+    "message": "页眉",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavThemeSubNavBookmark": {
+    "message": "书签",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutLabel": {
+    "message": "布局",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutSubNavScaling": {
+    "message": "缩放",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutSubNavArea": {
+    "message": "区域",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutSubNavPadding": {
+    "message": "内边距",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutSubNavGutter": {
+    "message": "页间距",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutSubNavAlignment": {
+    "message": "对齐",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLayoutSubNavPage": {
+    "message": "页面",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderLabel": {
+    "message": "页眉",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderSubNavAlignment": {
+    "message": "对齐",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderSubNavGreeting": {
+    "message": "问候语",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderSubNavTransitional": {
+    "message": "过渡词",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderSubNavClock": {
+    "message": "时钟",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderSubNavDate": {
+    "message": "日期",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavHeaderSubNavSearch": {
+    "message": "搜索",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavBookmarkLabel": {
+    "message": "书签",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavBookmarkSubNavGeneral": {
+    "message": "通用",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavBookmarkSubNavStyle": {
+    "message": "样式",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavBookmarkSubNavOrientation": {
+    "message": "方向",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavBookmarkSubNavSort": {
+    "message": "排序",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavGroupLabel": {
+    "message": "分组",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavGroupSubNavAlignment": {
+    "message": "对齐",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavGroupSubNavName": {
+    "message": "名称",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavGroupSubNavCollapse": {
+    "message": "折叠",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavGroupSubNavToolbar": {
+    "message": "工具栏",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavToolbarLabel": {
+    "message": "工具栏",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavToolbarSubNavSize": {
+    "message": "尺寸",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavToolbarSubNavLocation": {
+    "message": "位置",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavToolbarSubNavPosition": {
+    "message": "定位",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavToolbarSubNavControls": {
+    "message": "控件",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavDataLabel": {
+    "message": "数据",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavDataSubNavRestore": {
+    "message": "恢复",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavDataSubNavBackup": {
+    "message": "备份",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavDataSubNavClear": {
+    "message": "清除",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavLanguageLabel": {
+    "message": "语言",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavSupportLabel": {
+    "message": "支持",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavCoffeeLabel": {
+    "message": "咖啡",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuNavAppLabel": {
+    "message": "{appName}",
+    "description": "设置菜单导航的标签。"
+  },
+  "menuContentThemePresetHelperPara1": {
+    "message": "应用预设将替换当前的颜色、强调色、字体、样式、圆角、阴影、着色和背景。",
+    "description": "预设主题的帮助文本。"
+  },
+  "menuContentThemeSavedHelperPara1": {
+    "message": "保存主题将记录当前的颜色、强调色、字体、样式、不透明度、圆角、阴影、着色和背景。",
+    "description": "已保存主题的帮助文本。"
+  },
+  "menuContentThemeSavedSave": {
+    "message": "保存当前主题",
+    "description": "用于保存当前主题设置的按钮。"
+  },
+  "menuContentThemeSavedEdit": {
+    "message": "编辑已保存主题",
+    "description": "用于进入已保存主题编辑模式的按钮。"
+  },
+  "menuContentThemeStyleDarkLabel": {
+    "message": "深色模式",
+    "description": "深色模式的单选按钮。"
+  },
+  "menuContentThemeStyleLightLabel": {
+    "message": "浅色模式",
+    "description": "浅色模式的单选按钮。"
+  },
+  "menuContentThemeStyleAutomaticLabel": {
+    "message": "自动",
+    "description": "自动浅色或深色模式的单选按钮。"
+  },
+  "menuContentThemeStyleAutomaticDescription": {
+    "message": "跟随系统浅色或深色模式。",
+    "description": "自动浅色或深色模式的描述。"
+  },
+  "menuContentThemeColorShadeHelperPara1": {
+    "message": "背景、书签和模态框使用左侧的色调。",
+    "description": "主色的帮助文本。"
+  },
+  "menuContentThemeColorShadeHelperPara2": {
+    "message": "文本和表单元素使用右侧的色调。",
+    "description": "主色的帮助文本。"
+  },
+  "menuContentThemeColorShadeHelperPara3": {
+    "message": "若要获得浅色外观，请切换到浅色样式，然后选择一个主色。深色外观则反之。",
+    "description": "主色的帮助文本。"
+  },
+  "menuContentThemeColorRangePrimaryH": {
+    "message": "主色",
+    "description": "主色调的范围。"
+  },
+  "menuContentThemeColorRangePrimaryS": {
+    "message": "饱和度",
+    "description": "主色饱和度的范围。"
+  },
+  "menuContentThemeColorContrastLabel": {
+    "message": "对比度范围",
+    "description": "主色对比度的标签。"
+  },
+  "menuContentThemeColorContrastLeft": {
+    "message": "对比度起点",
+    "description": "主色对比度左侧的范围。"
+  },
+  "menuContentThemeColorContrastRight": {
+    "message": "对比度终点",
+    "description": "主色对比度右侧的范围。"
+  },
+  "menuContentThemeColorContrastHelperPara1": {
+    "message": "将对比度范围控件移近，以获得柔和的外观。",
+    "description": "主色对比度的帮助文本。"
+  },
+  "menuContentThemeColorContrastHelperPara2": {
+    "message": "将对比度范围控件彼此远离，以获得鲜明生动的外观。",
+    "description": "主色对比度的帮助文本。"
+  },
+  "menuContentThemeAccentPresetColorGrey": {
+    "message": "灰色",
+    "description": "灰色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorRed": {
+    "message": "红色",
+    "description": "红色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorOrange": {
+    "message": "橙色",
+    "description": "橙色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorYellow": {
+    "message": "黄色",
+    "description": "黄色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorLime": {
+    "message": "酸橙色",
+    "description": "酸橙色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorGreen": {
+    "message": "绿色",
+    "description": "绿色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorAqua": {
+    "message": "水绿色",
+    "description": "水绿色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorCyan": {
+    "message": "青色",
+    "description": "青色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorTeal": {
+    "message": "蓝绿色",
+    "description": "蓝绿色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorBlue": {
+    "message": "蓝色",
+    "description": "蓝色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorPurple": {
+    "message": "紫色",
+    "description": "紫色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorMagenta": {
+    "message": "品红色",
+    "description": "品红色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetColorFuchsia": {
+    "message": "紫红色",
+    "description": "紫红色预设强调色的标签。"
+  },
+  "menuContentThemeAccentPresetModifierLightLevel3": {
+    "message": "超极浅色",
+    "description": "预设强调色浅色级别 3 的标签。"
+  },
+  "menuContentThemeAccentPresetModifierLightLevel2": {
+    "message": "极浅色",
+    "description": "预设强调色浅色级别 2 的标签。"
+  },
+  "menuContentThemeAccentPresetModifierLightLevel1": {
+    "message": "浅色",
+    "description": "预设强调色浅色级别 1 的标签。"
+  },
+  "menuContentThemeAccentPresetModifierDarkLevel3": {
+    "message": "超极深色",
+    "description": "预设强调色深色级别 3 的标签。"
+  },
+  "menuContentThemeAccentPresetModifierDarkLevel2": {
+    "message": "极深色",
+    "description": "预设强调色深色级别 2 的标签。"
+  },
+  "menuContentThemeAccentPresetModifierDarkLevel1": {
+    "message": "深色",
+    "description": "预设强调色深色级别 1 的标签。"
+  },
+  "menuContentThemeAccentColor": {
+    "message": "强调色",
+    "description": "强调色的标签。"
+  },
+  "menuContentThemeAccentRandomActive": {
+    "message": "加载/刷新时随机强调色",
+    "description": "加载或刷新时随机强调色的复选框。"
+  },
+  "menuContentThemeAccentRandomStyleAny": {
+    "message": "任意",
+    "description": "加载或刷新时任意随机强调色的单选按钮。"
+  },
+  "menuContentThemeAccentRandomStyleLight": {
+    "message": "浅色",
+    "description": "加载或刷新时浅色随机强调色的单选按钮。"
+  },
+  "menuContentThemeAccentRandomStyleDark": {
+    "message": "深色",
+    "description": "加载或刷新时深色随机强调色的单选按钮。"
+  },
+  "menuContentThemeAccentRandomStylePastel": {
+    "message": "柔和色",
+    "description": "加载或刷新时柔和色随机强调色的单选按钮。"
+  },
+  "menuContentThemeAccentRandomStyleSaturated": {
+    "message": "饱和色",
+    "description": "加载或刷新时饱和色随机强调色的单选按钮。"
+  },
+  "menuContentThemeAccentRandomRandomise": {
+    "message": "立即随机化",
+    "description": "用于立即随机化强调色的按钮。"
+  },
+  "menuContentThemeAccentCycleActive": {
+    "message": "自动更改强调色色调",
+    "description": "循环强调色的复选框。"
+  },
+  "menuContentThemeAccentCycleSpeed": {
+    "message": "更改延迟",
+    "description": "循环强调色速度的范围。"
+  },
+  "menuContentThemeAccentCycleStep": {
+    "message": "更改步长",
+    "description": "循环强调色步长的范围。"
+  },
+  "menuContentThemeAccentCycleAlert": {
+    "message": "请注意，快速变化的强调色色调可能会导致性能问题。",
+    "description": "循环强调色的警告信息。"
+  },
+  "menuContentThemeAccentCycleHelperPara1": {
+    "message": "当强调色为灰色或黑色时，自动更改强调色色调将不起作用。",
+    "description": "循环强调色的帮助文本。"
+  },
+  "menuContentThemeFontDisplayNameLabel": {
+    "message": "显示字体",
+    "description": "显示字体名称的输入框。"
+  },
+  "menuContentThemeFontDisplayNamePlaceholder": {
+    "message": "Google 字体名称",
+    "description": "显示字体名称的占位符。"
+  },
+  "menuContentThemeFontDisplayNameHelperPara1": {
+    "message": "使用 Google 字体自定义时钟、日期、分组名称和书签字母。",
+    "description": "显示字体名称的帮助文本。"
+  },
+  "menuContentThemeFontDisplayNameHelperLink": {
+    "message": "查找 Google 字体",
+    "description": "Google 字体的链接。"
+  },
+  "menuContentThemeFontDisplayNameHelperPara2": {
+    "message": "添加字体名称，如同其在 Google 字体上显示的那样，包括大写字母和空格，例如：输入“Fredoka One”或“Kanit”。",
+    "description": "显示字体名称的帮助文本。"
+  },
+  "menuContentThemeFontDisplayNameHelperPara3": {
+    "message": "清除字段以使用默认字体“Fjalla One”。",
+    "description": "显示字体名称的帮助文本。"
+  },
+  "menuContentThemeFontDisplayWeightLabel": {
+    "message": "字体粗细",
+    "description": "显示字体粗细的标签。"
+  },
+  "menuContentThemeFontDisplayWeightLight": {
+    "message": "细体",
+    "description": "细体显示字体的按钮。"
+  },
+  "menuContentThemeFontDisplayWeightRegular": {
+    "message": "常规",
+    "description": "常规粗细显示字体的按钮。"
+  },
+  "menuContentThemeFontDisplayWeightBold": {
+    "message": "粗体",
+    "description": "粗体显示字体的按钮。"
+  },
+  "menuContentThemeFontDisplayWeightHelperPara1": {
+    "message": "并非所有字体都支持所有粗细。请参考 Google 字体页面查看可用的粗细。",
+    "description": "显示字体粗细的帮助文本。"
+  },
+  "menuContentThemeFontDisplayStyleNormal": {
+    "message": "正常",
+    "description": "正常显示字体样式的单选按钮。"
+  },
+  "menuContentThemeFontDisplayStyleItalic": {
+    "message": "斜体",
+    "description": "斜体显示字体样式的单选按钮。"
+  },
+  "menuContentThemeFontUiNameLabel": {
+    "message": "用户界面字体",
+    "description": "UI 字体名称的输入框。"
+  },
+  "menuContentThemeFontUiNamePlaceholder": {
+    "message": "Google 字体名称",
+    "description": "UI 字体名称的占位符。"
+  },
+  "menuContentThemeFontUiNameHelperPara1": {
+    "message": "使用 Google 字体自定义书签名称、URL 和表单元素。",
+    "description": "UI 字体名称的帮助文本。"
+  },
+  "menuContentThemeFontUiNameHelperLink": {
+    "message": "查找 Google 字体",
+    "description": "Google 字体的链接。"
+  },
+  "menuContentThemeFontUiNameHelperPara2": {
+    "message": "添加字体名称，如同其在 Google 字体上显示的那样，包括大写字母和空格，例如：输入“Roboto”、“Source Sans Pro”或“Noto Sans”。",
+    "description": "UI 字体名称的帮助文本。"
+  },
+  "menuContentThemeFontUiNameHelperPara3": {
+    "message": "清除字段以使用默认字体“Open Sans”。",
+    "description": "UI 字体名称的帮助文本。"
+  },
+  "menuContentThemeFontUiWeightLabel": {
+    "message": "字体粗细",
+    "description": "UI 字体粗细的标签。"
+  },
+  "menuContentThemeFontUiWeightLight": {
+    "message": "细体",
+    "description": "细体 UI 字体的按钮。"
+  },
+  "menuContentThemeFontUiWeightRegular": {
+    "message": "常规",
+    "description": "常规粗细 UI 字体的按钮。"
+  },
+  "menuContentThemeFontUiWeightBold": {
+    "message": "粗体",
+    "description": "粗体 UI 字体的按钮。"
+  },
+  "menuContentThemeFontUiWeightHelperPara1": {
+    "message": "并非所有字体都支持所有粗细。请参考 Google 字体页面查看可用的粗细。",
+    "description": "UI 字体粗细的帮助文本。"
+  },
+  "menuContentThemeFontUiStyleNormal": {
+    "message": "正常",
+    "description": "正常 UI 字体样式的单选按钮。"
+  },
+  "menuContentThemeFontUiStyleItalic": {
+    "message": "斜体",
+    "description": "斜体 UI 字体样式的单选按钮。"
+  },
+  "menuContentThemeRadius": {
+    "message": "圆角半径",
+    "description": "圆角半径的范围。"
+  },
+  "menuContentThemeShadow": {
+    "message": "阴影尺寸",
+    "description": "阴影的范围。"
+  },
+  "menuContentThemeShadeOpacity": {
+    "message": "着色不透明度",
+    "description": "着色不透明度的范围。"
+  },
+  "menuContentThemeShadeBlurLabel": {
+    "message": "着色模糊",
+    "description": "着色模糊的范围。"
+  },
+  "menuContentThemeShadeBlurHelperPara1": {
+    "message": "并非所有浏览器都支持。",
+    "description": "着色模糊的帮助文本。"
+  },
+  "menuContentThemeOpacityGeneralLabel": {
+    "message": "全部不透明度",
+    "description": "全部不透明度的范围。"
+  },
+  "menuContentThemeOpacityGeneralHelperPara1": {
+    "message": "更改搜索栏、书签、分组控件和工具栏的不透明度。",
+    "description": "全部不透明度的帮助文本。"
+  },
+  "menuContentThemeOpacityGeneralHelperPara2": {
+    "message": "在编辑单个书签时也可以更改不透明度。",
+    "description": "全部不透明度的帮助文本。"
+  },
+  "menuContentThemeOpacityToolbar": {
+    "message": "工具栏",
+    "description": "工具栏不透明度的范围。"
+  },
+  "menuContentThemeOpacityBookmark": {
+    "message": "书签",
+    "description": "书签不透明度的范围。"
+  },
+  "menuContentThemeOpacitySearch": {
+    "message": "搜索框",
+    "description": "搜索框不透明度的范围。"
+  },
+  "menuContentThemeOpacityGroupToolbar": {
+    "message": "分组工具栏",
+    "description": "分组工具栏不透明度的范围。"
+  },
+  "menuContentThemeBackgroundTypeThemeLabel": {
+    "message": "主题背景",
+    "description": "主题背景类型的单选按钮。"
+  },
+  "menuContentThemeBackgroundTypeThemeDescription": {
+    "message": "使用主题定义的背景颜色。",
+    "description": "主题背景类型的描述。"
+  },
+  "menuContentThemeBackgroundTypeAccentLabel": {
+    "message": "强调色背景",
+    "description": "强调色背景类型的单选按钮。"
+  },
+  "menuContentThemeBackgroundTypeAccentDescription": {
+    "message": "使用强调色作为背景。",
+    "description": "强调色背景类型的描述。"
+  },
+  "menuContentThemeBackgroundTypeColor": {
+    "message": "自定义颜色",
+    "description": "自定义颜色背景类型的单选按钮。"
+  },
+  "menuContentThemeBackgroundTypeGradient": {
+    "message": "渐变",
+    "description": "渐变背景类型的单选按钮。"
+  },
+  "menuContentThemeBackgroundTypeImage": {
+    "message": "图片",
+    "description": "图片背景类型的单选按钮。"
+  },
+  "menuContentThemeBackgroundTypeVideo": {
+    "message": "视频",
+    "description": "视频背景类型的单选按钮。"
+  },
+  "menuContentThemeBackgroundColor": {
+    "message": "背景颜色",
+    "description": "背景颜色的标签。"
+  },
+  "menuContentThemeBackgroundGradientAngle": {
+    "message": "背景渐变角度",
+    "description": "背景渐变角度的标签。"
+  },
+  "menuContentThemeBackgroundGradientLeft": {
+    "message": "背景渐变起点",
+    "description": "背景渐变角度起点的范围。"
+  },
+  "menuContentThemeBackgroundGradientRight": {
+    "message": "背景渐变终点",
+    "description": "背景渐变角度终点的范围。"
+  },
+  "menuContentThemeBackgroundImageAlertPara1": {
+    "message": "本地图片不再可用。图片必须托管在在线位置。",
+    "description": "图片背景的警告信息。"
+  },
+  "menuContentThemeBackgroundImageAlertPara2": {
+    "message": "为什么会发生此更改？",
+    "description": "图片背景的警告信息。"
+  },
+  "menuContentThemeBackgroundImageUrlLabel": {
+    "message": "URL",
+    "description": "背景图片 URL 的输入框。"
+  },
+  "menuContentThemeBackgroundImageUrlPlaceholder": {
+    "message": "https://www.example.com/image.jpg",
+    "description": "背景图片 URL 的占位符。"
+  },
+  "menuContentThemeBackgroundImageUrlHelperPara1": {
+    "message": "添加多个 URL，以空格或换行符分隔，以便在加载时随机显示背景图片。",
+    "description": "背景图片的帮助文本。"
+  },
+  "menuContentThemeBackgroundImageUrlHelperPara2": {
+    "message": "Unsplash 可用于随机图片，例如：",
+    "description": "背景图片的帮助文本。"
+  },
+  "menuContentThemeBackgroundImageUrlHelperPara3": {
+    "message": "https://source.unsplash.com/random/1920x1080/?night,day,sky",
+    "description": "背景图片的帮助文本。"
+  },
+  "menuContentThemeBackgroundImageUrlHelperPara4": {
+    "message": "更改 .../random/ 后的参数以获得更多选项。加载时间可能会有所不同。",
+    "description": "背景图片的帮助文本。"
+  },
+  "menuContentThemeBackgroundImageBlur": {
+    "message": "模糊",
+    "description": "背景图片模糊的范围。"
+  },
+  "menuContentThemeBackgroundImageGrayscale": {
+    "message": "灰度",
+    "description": "背景图片灰度的范围。"
+  },
+  "menuContentThemeBackgroundImageScale": {
+    "message": "缩放",
+    "description": "背景图片缩放的范围。"
+  },
+  "menuContentThemeBackgroundImageAccent": {
+    "message": "强调色",
+    "description": "背景图片强调色的范围。"
+  },
+  "menuContentThemeBackgroundImageOpacity": {
+    "message": "不透明度",
+    "description": "背景图片不透明度的范围。"
+  },
+  "menuContentThemeBackgroundImageVignetteOpacity": {
+    "message": "晕影",
+    "description": "图片晕影不透明度的范围。"
+  },
+  "menuContentThemeBackgroundImageVignetteRangeLabel": {
+    "message": "着色起点和终点",
+    "description": "图片晕影的标签。"
+  },
+  "menuContentThemeBackgroundImageVignetteRangeLeft": {
+    "message": "着色终点",
+    "description": "图片晕影左侧的范围。"
+  },
+  "menuContentThemeBackgroundImageVignetteRangeRight": {
+    "message": "着色起点",
+    "description": "图片晕影右侧的范围。"
+  },
+  "menuContentThemeBackgroundVideoAlertPara1": {
+    "message": "无法使用 YouTube 页面 URL。",
+    "description": "视频背景的警告信息。"
+  },
+  "menuContentThemeBackgroundVideoAlertPara2": {
+    "message": "如何链接到视频文件。",
+    "description": "视频背景的警告信息。"
+  },
+  "menuContentThemeBackgroundVideoUrlLabel": {
+    "message": "URL",
+    "description": "背景视频 URL 的输入框。"
+  },
+  "menuContentThemeBackgroundVideoUrlPlaceholder": {
+    "message": "https://www.example.com/video.mp4",
+    "description": "背景视频 URL 的占位符。"
+  },
+  "menuContentThemeBackgroundVideoUrlHelperPara1": {
+    "message": "背景视频仅支持视频文件的直接 URL。支持 MP4 和 WebM 格式。",
+    "description": "背景视频的帮助文本。"
+  },
+  "menuContentThemeBackgroundVideoUrlHelperPara2": {
+    "message": "添加多个 URL，以空格或换行符分隔，以便在加载时随机显示背景视频。",
+    "description": "背景视频的帮助文本。"
+  },
+  "menuContentThemeBackgroundVideoBlur": {
+    "message": "模糊",
+    "description": "背景视频模糊的范围。"
+  },
+  "menuContentThemeBackgroundVideoGrayscale": {
+    "message": "灰度",
+    "description": "背景视频灰度的范围。"
+  },
+  "menuContentThemeBackgroundVideoScale": {
+    "message": "缩放",
+    "description": "背景视频缩放的范围。"
+  },
+  "menuContentThemeBackgroundVideoAccent": {
+    "message": "强调色",
+    "description": "背景视频强调色的范围。"
+  },
+  "menuContentThemeBackgroundVideoOpacity": {
+    "message": "不透明度",
+    "description": "背景视频不透明度的范围。"
+  },
+  "menuContentThemeBackgroundVideoVignetteOpacity": {
+    "message": "晕影",
+    "description": "视频晕影不透明度的范围。"
+  },
+  "menuContentThemeBackgroundVideoVignetteRangeLabel": {
+    "message": "着色起点和终点",
+    "description": "视频晕影的标签。"
+  },
+  "menuContentThemeBackgroundVideoVignetteRangeLeft": {
+    "message": "着色终点",
+    "description": "视频晕影左侧的范围。"
+  },
+  "menuContentThemeBackgroundVideoVignetteRangeRight": {
+    "message": "着色起点",
+    "description": "视频晕影右侧的范围。"
+  },
+  "menuContentThemeLayoutColorLabel": {
+    "message": "布局背景颜色",
+    "description": "布局区域颜色的标签。"
+  },
+  "menuContentThemeLayoutColorByTransparentLabel": {
+    "message": "透明",
+    "description": "透明布局区域背景的单选按钮。"
+  },
+  "menuContentThemeLayoutColorByTransparentDescription": {
+    "message": "布局后方没有背景颜色。",
+    "description": "透明布局区域背景的描述。"
+  },
+  "menuContentThemeLayoutColorByCustomLabel": {
+    "message": "自定义颜色",
+    "description": "自定义颜色布局区域背景的单选按钮。"
+  },
+  "menuContentThemeLayoutColorByCustomDescription": {
+    "message": "在布局后方使用自定义颜色。",
+    "description": "自定义颜色布局区域背景的描述。"
+  },
+  "menuContentThemeLayoutColorColor": {
+    "message": "布局背景颜色",
+    "description": "布局区域背景颜色的标签。"
+  },
+  "menuContentThemeLayoutColorOpacity": {
+    "message": "背景不透明度",
+    "description": "布局区域背景不透明度的范围。"
+  },
+  "menuContentThemeLayoutColorBlurLabel": {
+    "message": "背景模糊",
+    "description": "布局背景模糊的范围。"
+  },
+  "menuContentThemeLayoutColorBlurHelperPara1": {
+    "message": "并非所有浏览器都支持。",
+    "description": "布局背景模糊的描述。"
+  },
+  "menuContentThemeLayoutDivider": {
+    "message": "页眉和书签区域之间的分隔线",
+    "description": "布局分隔线的标签。"
+  },
+  "menuContentThemeHeaderColorLabel": {
+    "message": "页眉背景颜色",
+    "description": "页眉区域颜色的标签。"
+  },
+  "menuContentThemeHeaderColorByTransparentLabel": {
+    "message": "透明",
+    "description": "透明页眉区域背景的单选按钮。"
+  },
+  "menuContentThemeHeaderColorByTransparentDescription": {
+    "message": "页眉区域后方没有背景颜色。",
+    "description": "透明页眉区域背景的描述。"
+  },
+  "menuContentThemeHeaderColorByCustomLabel": {
+    "message": "自定义颜色",
+    "description": "自定义颜色页眉区域背景的单选按钮。"
+  },
+  "menuContentThemeHeaderColorByCustomDescription": {
+    "message": "在页眉区域后方使用自定义颜色。",
+    "description": "自定义颜色页眉区域背景的描述。"
+  },
+  "menuContentThemeHeaderColorColor": {
+    "message": "页眉背景颜色",
+    "description": "页眉区域背景颜色的标签。"
+  },
+  "menuContentThemeHeaderColorOpacity": {
+    "message": "背景不透明度",
+    "description": "页眉区域背景不透明度的范围。"
+  },
+  "menuContentThemeBookmarkColorLabel": {
+    "message": "书签背景颜色",
+    "description": "书签区域颜色的标签。"
+  },
+  "menuContentThemeBookmarkColorByTransparentLabel": {
+    "message": "透明",
+    "description": "透明书签区域背景的单选按钮。"
+  },
+  "menuContentThemeBookmarkColorByTransparentDescription": {
+    "message": "书签区域后方没有背景颜色。",
+    "description": "透明书签区域背景的描述。"
+  },
+  "menuContentThemeBookmarkColorByCustomLabel": {
+    "message": "自定义颜色",
+    "description": "自定义颜色书签区域背景的单选按钮。"
+  },
+  "menuContentThemeBookmarkColorByCustomDescription": {
+    "message": "在书签区域后方使用自定义颜色。",
+    "description": "自定义颜色书签区域背景的描述。"
+  },
+  "menuContentThemeBookmarkColorColor": {
+    "message": "书签背景颜色",
+    "description": "书签区域背景颜色的标签。"
+  },
+  "menuContentThemeBookmarkColorOpacity": {
+    "message": "背景不透明度",
+    "description": "书签区域背景不透明度的范围。"
+  },
+  "menuContentThemeBookmarkItemBorderLabel": {
+    "message": "书签边框",
+    "description": "书签项目边框的标签。"
+  },
+  "menuContentThemeBookmarkItemBorderHelperPara1": {
+    "message": "在编辑单个书签时也可以更改书签边框。",
+    "description": "书签边框的帮助文本。"
+  },
+  "menuContentThemeBookmarkItemBorderHelperPara2": {
+    "message": "边框的颜色由强调色定义，也可以在编辑单个书签时更改。",
+    "description": "书签边框的帮助文本。"
+  },
+  "menuContentThemeBookmarkItemRainbowAdd": {
+    "message": "为每个书签添加独特的强调色",
+    "description": "用于为每个书签添加独特强调色的按钮。"
+  },
+  "menuContentThemeBookmarkItemRainbowRemove": {
+    "message": "移除所有强调色覆盖",
+    "description": "用于移除每个书签的独特强调色的按钮。"
+  },
+  "menuContentThemeBookmarkItemRainbowHelperPara1": {
+    "message": "在编辑单个书签时也可以更改书签自定义强调色。",
+    "description": "每个书签的独特强调色的帮助文本。"
+  },
+  "menuContentLayoutScalingSize": {
+    "message": "全局尺寸",
+    "description": "布局缩放的标签。"
+  },
+  "menuContentLayoutAreaWidth": {
+    "message": "布局区域宽度",
+    "description": "布局区域宽度的范围。"
+  },
+  "menuContentLayoutAreaHeaderWidth": {
+    "message": "页眉区域宽度",
+    "description": "页眉区域宽度的标签。"
+  },
+  "menuContentLayoutAreaHeaderJustifyLabel": {
+    "message": "页眉区域对齐方式",
+    "description": "页眉区域对齐方式的标签。"
+  },
+  "menuContentLayoutAreaHeaderJustifyLeft": {
+    "message": "左对齐",
+    "description": "用于将页眉区域左对齐的单选按钮。"
+  },
+  "menuContentLayoutAreaHeaderJustifyCenter": {
+    "message": "居中",
+    "description": "用于将页眉区域居中对齐的单选按钮。"
+  },
+  "menuContentLayoutAreaHeaderJustifyRight": {
+    "message": "右对齐",
+    "description": "用于将页眉区域右对齐的单选按钮。"
+  },
+  "menuContentLayoutAreaHeaderJustifyHelper1Para1": {
+    "message": "如果页眉区域是全宽，则效果可能不可见。",
+    "description": "页眉区域对齐方式的帮助文本。"
+  },
+  "menuContentLayoutAreaHeaderJustifyHelper2Para1": {
+    "message": "仅当布局方向为垂直且显示页眉项目时可用。",
+    "description": "页眉区域对齐方式的帮助文本。"
+  },
+  "menuContentLayoutAreaBookmarkWidth": {
+    "message": "书签区域宽度",
+    "description": "书签区域宽度的标签。"
+  },
+  "menuContentLayoutAreaBookmarkJustifyLabel": {
+    "message": "书签区域对齐方式",
+    "description": "书签区域对齐方式的标签。"
+  },
+  "menuContentLayoutAreaBookmarkJustifyLeft": {
+    "message": "左对齐",
+    "description": "用于将书签区域左对齐的单选按钮。"
+  },
+  "menuContentLayoutAreaBookmarkJustifyCenter": {
+    "message": "居中",
+    "description": "用于将书签区域居中对齐的单选按钮。"
+  },
+  "menuContentLayoutAreaBookmarkJustifyRight": {
+    "message": "右对齐",
+    "description": "用于将书签区域右对齐的单选按钮。"
+  },
+  "menuContentLayoutAreaBookmarkJustifyHelper1Para1": {
+    "message": "如果书签区域是全宽，则效果可能不可见。",
+    "description": "书签区域对齐方式的帮助文本。"
+  },
+  "menuContentLayoutAreaBookmarkJustifyHelper2Para1": {
+    "message": "仅当布局方向为垂直且显示页眉项目时可用。",
+    "description": "书签区域对齐方式的帮助文本。"
+  },
+  "menuContentLayoutPadding": {
+    "message": "页眉和书签区域周围的空间",
+    "description": "布局内边距的范围。"
+  },
+  "menuContentLayoutGutter": {
+    "message": "页眉和书签项目之间的空间",
+    "description": "布局页间距的范围。"
+  },
+  "menuContentLayoutAlignmentLabel": {
+    "message": "区域对齐方式",
+    "description": "布局对齐方式的标签。"
+  },
+  "menuContentLayoutAlignmentTopLeft": {
+    "message": "左上",
+    "description": "布局对齐方式为左上的单选按钮。"
+  },
+  "menuContentLayoutAlignmentTopCenter": {
+    "message": "顶部居中",
+    "description": "布局对齐方式为顶部居中的单选按钮。"
+  },
+  "menuContentLayoutAlignmentTopRight": {
+    "message": "右上",
+    "description": "布局对齐方式为右上的单选按钮。"
+  },
+  "menuContentLayoutAlignmentCenterLeft": {
+    "message": "左中",
+    "description": "布局对齐方式为左中的单选按钮。"
+  },
+  "menuContentLayoutAlignmentCenterCenter": {
+    "message": "居中",
+    "description": "布局对齐方式为居中的单选按钮。"
+  },
+  "menuContentLayoutAlignmentCenterRight": {
+    "message": "右中",
+    "description": "布局对齐方式为右中的单选按钮。"
+  },
+  "menuContentLayoutAlignmentBottomLeft": {
+    "message": "左下",
+    "description": "布局对齐方式为左下的单选按钮。"
+  },
+  "menuContentLayoutAlignmentBottomCenter": {
+    "message": "底部居中",
+    "description": "布局对齐方式为底部居中的单选按钮。"
+  },
+  "menuContentLayoutAlignmentBottomRight": {
+    "message": "右下",
+    "description": "布局对齐方式为右下的单选按钮。"
+  },
+  "menuContentLayoutDirectionHorizontalLabel": {
+    "message": "水平对齐",
+    "description": "布局方向为水平的单选按钮。"
+  },
+  "menuContentLayoutDirectionHorizontalDescription": {
+    "message": "将页眉和书签并排堆叠成一行。",
+    "description": "布局方向为水平的帮助文本。"
+  },
+  "menuContentLayoutDirectionVerticalLabel": {
+    "message": "垂直对齐",
+    "description": "布局方向为垂直的单选按钮。"
+  },
+  "menuContentLayoutDirectionVerticalDescription": {
+    "message": "将页眉和书签上下堆叠成一列。",
+    "description": "布局方向为垂直的帮助文本。"
+  },
+  "menuContentLayoutOrderHeaderBookmarkLabel": {
+    "message": "页眉优先",
+    "description": "布局顺序为页眉优先的单选按钮。"
+  },
+  "menuContentLayoutOrderHeaderBookmarkDescription": {
+    "message": "将页眉区域排序为显示在书签区域之前。",
+    "description": "布局顺序为页眉优先的帮助文本。"
+  },
+  "menuContentLayoutOrderBookmarkHeaderLabel": {
+    "message": "书签优先",
+    "description": "布局顺序为书签优先的单选按钮。"
+  },
+  "menuContentLayoutOrderBookmarkHeaderDescription": {
+    "message": "将书签区域排序为显示在页眉区域之前。",
+    "description": "布局顺序为书签优先的帮助文本。"
+  },
+  "menuContentLayoutPageTitleLabel": {
+    "message": "标题",
+    "description": "页面标题的标签。"
+  },
+  "menuContentLayoutPageTitlePlaceholder": {
+    "message": "新标签页",
+    "description": "页面标题的输入框。"
+  },
+  "menuContentLayoutPageFaviconLabel": {
+    "message": "Favicon URL",
+    "description": "Favicon URL 的标签。"
+  },
+  "menuContentLayoutPageFaviconPlaceholder": {
+    "message": "https://www.example.com/favicon.svg",
+    "description": "Favicon URL 的占位符。"
+  },
+  "menuContentLayoutPageFaviconHelperPara1": {
+    "message": "并非所有浏览器都支持。",
+    "description": "Favicon URL 的输入框。"
+  },
+  "menuContentLayoutPageScrollbarLabel": {
+    "message": "滚动条",
+    "description": "页面滚动条的标签。"
+  },
+  "menuContentLayoutPageScrollbarAuto": {
+    "message": "自动",
+    "description": "页面滚动条为自动的单选按钮。"
+  },
+  "menuContentLayoutPageScrollbarThin": {
+    "message": "细滚动条",
+    "description": "页面滚动条为细滚动条的单选按钮。"
+  },
+  "menuContentLayoutPageScrollbarNone": {
+    "message": "隐藏",
+    "description": "页面滚动条为隐藏的单选按钮。"
+  },
+  "menuContentLayoutPageScrollbarHelperPara1": {
+    "message": "并非所有浏览器都支持。",
+    "description": "页面滚动条的帮助文本。"
+  },
+  "menuContentLayoutPageOverscrollActive": {
+    "message": "滚动超出末端",
+    "description": "布局页面超出滚动范围的复选框。"
+  },
+  "menuContentLayoutPageOverscrollUnblurLabel": {
+    "message": "取消模糊背景图片或视频",
+    "description": "超出滚动范围时取消模糊背景图片或视频的标签。"
+  },
+  "menuContentLayoutPageOverscrollUnblurDescriptionPara1": {
+    "message": "滚动到页面底部时，背景图片或视频将取消模糊。",
+    "description": "超出滚动范围时取消模糊背景图片或视频的帮助文本。"
+  },
+  "menuContentLayoutPageOverscrollUnblurDescriptionPara2": {
+    "message": "图片或视频模糊可以在“主题背景”中找到。",
+    "description": "超出滚动范围时取消模糊背景图片或视频的帮助文本。"
+  },
+  "menuContentHeaderAlignmentJustifyLabel": {
+    "message": "页眉项目对齐方式",
+    "description": "用于对齐页眉项目的标签。"
+  },
+  "menuContentHeaderAlignmentJustifyLeft": {
+    "message": "左对齐",
+    "description": "用于将页眉项目左对齐的标签。"
+  },
+  "menuContentHeaderAlignmentJustifyCenter": {
+    "message": "居中",
+    "description": "用于将页眉项目居中对齐的标签。"
+  },
+  "menuContentHeaderAlignmentJustifyRight": {
+    "message": "右对齐",
+    "description": "用于将页眉项目右对齐的标签。"
+  },
+  "menuContentHeaderAlignmentHelperPara1": {
+    "message": "如果搜索框尺寸设置为“自动”并增大以填充可用空间，则效果可能不可见。",
+    "description": "用于对齐页眉项目的帮助文本。"
+  },
+  "menuContentHeaderGreetingShow": {
+    "message": "显示问候语",
+    "description": "用于显示页眉问候语的复选框。"
+  },
+  "menuContentHeaderGreetingSize": {
+    "message": "尺寸",
+    "description": "页眉问候语尺寸的范围。"
+  },
+  "menuContentHeaderGreetingNewLineLabel": {
+    "message": "另起一行",
+    "description": "强制页眉问候语另起一行的复选框。"
+  },
+  "menuContentHeaderGreetingNewLineDescription": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制页眉问候语另起一行的描述。"
+  },
+  "menuContentHeaderGreetingTypeLabel": {
+    "message": "措辞",
+    "description": "页眉问候语的标签。"
+  },
+  "menuContentHeaderGreetingTypeGood": {
+    "message": "“早上好……”",
+    "description": "“早上好”页眉问候语的单选按钮。"
+  },
+  "menuContentHeaderGreetingTypeHello": {
+    "message": "“你好……”",
+    "description": "“你好”页眉问候语的单选按钮。"
+  },
+  "menuContentHeaderGreetingTypeHi": {
+    "message": "“嗨……”",
+    "description": "“嗨”页眉问候语的单选按钮。"
+  },
+  "menuContentHeaderGreetingTypeNoneLabel": {
+    "message": "无",
+    "description": "无页眉问候语的单选按钮。"
+  },
+  "menuContentHeaderGreetingTypeNoneDescription": {
+    "message": "仅显示名称时很有用。",
+    "description": "无页眉问候语的描述。"
+  },
+  "menuContentHeaderGreetingTypeCustomLabel": {
+    "message": "自定义",
+    "description": "自定义页眉问候语的单选按钮。"
+  },
+  "menuContentHeaderGreetingTypeCustomDescriptionPara1": {
+    "message": "使用您自己的问候语。",
+    "description": "自定义页眉问候语的描述。"
+  },
+  "menuContentHeaderGreetingTypeCustomDescriptionPara2": {
+    "message": "如果留空，则默认为“早上好……”。",
+    "description": "自定义页眉问候语的描述。"
+  },
+  "menuContentHeaderGreetingCustomLabel": {
+    "message": "自定义问候语文本",
+    "description": "自定义页眉问候语的标签。"
+  },
+  "menuContentHeaderGreetingCustomPlaceholder": {
+    "message": "你好呀",
+    "description": "自定义页眉问候语的占位符。"
+  },
+  "menuContentHeaderGreetingNameLabel": {
+    "message": "名称",
+    "description": "页眉问候语名称的输入框。"
+  },
+  "menuContentHeaderGreetingNamePlaceholder": {
+    "message": "昵称、别名或超级英雄名称",
+    "description": "页眉问候语名称的占位符。"
+  },
+  "menuContentHeaderTransitionalShowLabel": {
+    "message": "显示过渡词",
+    "description": "显示页眉过渡文本的复选框。"
+  },
+  "menuContentHeaderTransitionalShowHelperPara1": {
+    "message": "仅当显示日期或时间时可用。",
+    "description": "页眉过渡文本的帮助文本。"
+  },
+  "menuContentHeaderTransitionalTypeLabel": {
+    "message": "措辞",
+    "description": "过渡文本类型的标签。"
+  },
+  "menuContentHeaderTransitionalTypeTimeAndDate": {
+    "message": "“现在的时间和日期是”",
+    "description": "“现在的时间和日期是”过渡文本的单选按钮。"
+  },
+  "menuContentHeaderTransitionalTypeIts": {
+    "message": "“现在是”",
+    "description": "“现在是”过渡文本的单选按钮。"
+  },
+  "menuContentHeaderTransitionalSize": {
+    "message": "尺寸",
+    "description": "过渡文本尺寸的范围。"
+  },
+  "menuContentHeaderTransitionalNewLineLabel": {
+    "message": "另起一行",
+    "description": "强制过渡文本另起一行的复选框。"
+  },
+  "menuContentHeaderTransitionalNewLineDescription": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制过渡文本另起一行的描述。"
+  },
+  "menuContentHeaderClockHourShow": {
+    "message": "显示小时",
+    "description": "时钟小时的复选框。"
+  },
+  "menuContentHeaderClockHourDisplayNumber": {
+    "message": "数字",
+    "description": "时钟小时显示为数字的单选按钮。"
+  },
+  "menuContentHeaderClockHourDisplayWord": {
+    "message": "文字",
+    "description": "时钟小时显示为文字的单选按钮。"
+  },
+  "menuContentHeaderClockMinuteShow": {
+    "message": "显示分钟",
+    "description": "时钟分钟的复选框。"
+  },
+  "menuContentHeaderClockMinuteDisplayNumber": {
+    "message": "数字",
+    "description": "时钟分钟显示为数字的单选按钮。"
+  },
+  "menuContentHeaderClockMinuteDisplayWord": {
+    "message": "文字",
+    "description": "时钟分钟显示为文字的单选按钮。"
+  },
+  "menuContentHeaderClockSecondShow": {
+    "message": "显示秒钟",
+    "description": "时钟秒钟的复选框。"
+  },
+  "menuContentHeaderClockSecondDisplayNumber": {
+    "message": "数字",
+    "description": "时钟秒钟显示为数字的单选按钮。"
+  },
+  "menuContentHeaderClockSecondDisplayWord": {
+    "message": "文字",
+    "description": "时钟秒钟显示为文字的单选按钮。"
+  },
+  "menuContentHeaderClockSeparatorShow": {
+    "message": "显示分隔符",
+    "description": "时钟分隔符的复选框。"
+  },
+  "menuContentHeaderClockSeparatorLabel": {
+    "message": "分隔符字符",
+    "description": "时钟分隔符的标签。"
+  },
+  "menuContentHeaderClockSeparatorPlaceholder": {
+    "message": ":",
+    "description": "时钟分隔符的占位符。"
+  },
+  "menuContentHeaderClockHour24": {
+    "message": "24 小时制",
+    "description": "24 小时制时钟的复选框。"
+  },
+  "menuContentHeaderClockMeridiem": {
+    "message": "上午/下午",
+    "description": "上午/下午制时钟的复选框。"
+  },
+  "menuContentHeaderClockSize": {
+    "message": "尺寸",
+    "description": "时钟尺寸的范围。"
+  },
+  "menuContentHeaderClockNewLineLabel": {
+    "message": "另起一行",
+    "description": "强制时钟另起一行的复选框。"
+  },
+  "menuContentHeaderClockNewLineDescription": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制时钟另起一行的描述。"
+  },
+  "menuContentHeaderDateDayShow": {
+    "message": "显示星期",
+    "description": "星期的复选框。"
+  },
+  "menuContentHeaderDateDayDisplayNumber": {
+    "message": "数字",
+    "description": "星期显示为数字的单选按钮。"
+  },
+  "menuContentHeaderDateDayDisplayWord": {
+    "message": "文字",
+    "description": "星期显示为文字的单选按钮。"
+  },
+  "menuContentHeaderDateDayDisplayWeekStartLabel": {
+    "message": "一周的开始",
+    "description": "一周开始的标签。"
+  },
+  "menuContentHeaderDateDayDisplayWeekStartMonday": {
+    "message": "星期一",
+    "description": "星期一作为一周开始的单选按钮。"
+  },
+  "menuContentHeaderDateDayDisplayWeekStartSunday": {
+    "message": "星期日",
+    "description": "星期日作为一周开始的单选按钮。"
+  },
+  "menuContentHeaderDateDayDisplayLengthLabel": {
+    "message": "文字长度",
+    "description": "星期几的文字长度标签。"
+  },
+  "menuContentHeaderDateDayDisplayLengthLong": {
+    "message": "长",
+    "description": "星期几为长文字长度的单选按钮。"
+  },
+  "menuContentHeaderDateDayDisplayLengthShort": {
+    "message": "短",
+    "description": "星期几为短文字长度的单选按钮。"
+  },
+  "menuContentHeaderDateDateShow": {
+    "message": "显示日期",
+    "description": "日期的复选框。"
+  },
+  "menuContentHeaderDateDateDisplayNumber": {
+    "message": "数字",
+    "description": "日期显示为数字的单选按钮。"
+  },
+  "menuContentHeaderDateDateDisplayWord": {
+    "message": "文字",
+    "description": "日期显示为文字的单选按钮。"
+  },
+  "menuContentHeaderDateDateDisplayOrdinal": {
+    "message": "序数",
+    "description": "日期数字为序数的复选框。"
+  },
+  "menuContentHeaderDateMonthShow": {
+    "message": "显示月份",
+    "description": "月份的复选框。"
+  },
+  "menuContentHeaderDateMonthDisplayNumber": {
+    "message": "数字",
+    "description": "月份显示为数字的单选按钮。"
+  },
+  "menuContentHeaderDateMonthDisplayWord": {
+    "message": "文字",
+    "description": "月份显示为文字的单选按钮。"
+  },
+  "menuContentHeaderDateMonthDisplayOrdinal": {
+    "message": "序数",
+    "description": "月份数字为序数的复选框。"
+  },
+  "menuContentHeaderDateMonthDisplayLengthLabel": {
+    "message": "文字长度",
+    "description": "年份中月份的文字长度标签。"
+  },
+  "menuContentHeaderDateMonthDisplayLengthLong": {
+    "message": "长",
+    "description": "年份中月份为长文字长度的单选按钮。"
+  },
+  "menuContentHeaderDateMonthDisplayLengthShort": {
+    "message": "短",
+    "description": "年份中月份为短文字长度的单选按钮。"
+  },
+  "menuContentHeaderDateYearShow": {
+    "message": "显示年份",
+    "description": "年份的复选框。"
+  },
+  "menuContentHeaderDateYearDisplayNumber": {
+    "message": "数字",
+    "description": "年份显示为数字的单选按钮。"
+  },
+  "menuContentHeaderDateYearDisplayWord": {
+    "message": "文字",
+    "description": "年份显示为文字的单选按钮。"
+  },
+  "menuContentHeaderDateSeparatorShow": {
+    "message": "显示分隔符",
+    "description": "日期分隔符的复选框。"
+  },
+  "menuContentHeaderDateSeparatorLabel": {
+    "message": "分隔符字符",
+    "description": "日期分隔符的复选框。"
+  },
+  "menuContentHeaderDateSeparatorPlaceholder": {
+    "message": "/",
+    "description": "日期分隔符的占位符。"
+  },
+  "menuContentHeaderDateFormatLabel": {
+    "message": "格式",
+    "description": "日期格式的标签。"
+  },
+  "menuContentHeaderDateFormatDateMonth": {
+    "message": "日期/月份",
+    "description": "日期在前，月份在后格式的单选按钮。"
+  },
+  "menuContentHeaderDateFormatMonthDate": {
+    "message": "月份/日期",
+    "description": "月份在前，日期在后格式的单选按钮。"
+  },
+  "menuContentHeaderDateSize": {
+    "message": "尺寸",
+    "description": "日期尺寸的范围。"
+  },
+  "menuContentHeaderDateNewLineLabel": {
+    "message": "另起一行",
+    "description": "强制日期另起一行的复选框。"
+  },
+  "menuContentHeaderDateNewLineDescription": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制日期另起一行的描述。"
+  },
+  "menuContentHeaderSearchShow": {
+    "message": "显示搜索",
+    "description": "搜索的复选框。"
+  },
+  "menuContentHeaderSearchWidthLabel": {
+    "message": "搜索框宽度",
+    "description": "搜索宽度的标签。"
+  },
+  "menuContentHeaderSearchWidthAutoLabel": {
+    "message": "自动宽度",
+    "description": "自动搜索宽度的单选按钮。"
+  },
+  "menuContentHeaderSearchWidthAutoDescription": {
+    "message": "搜索框将增大以最佳适应可用空间。",
+    "description": "自动搜索宽度的描述。"
+  },
+  "menuContentHeaderSearchWidthCustomLabel": {
+    "message": "自定义宽度",
+    "description": "自定义搜索宽度的单选按钮。"
+  },
+  "menuContentHeaderSearchWidthCustomDescription": {
+    "message": "定义搜索框在页眉区域内应有多宽。",
+    "description": "自定义搜索宽度的描述。"
+  },
+  "menuContentHeaderSearchWidthSize": {
+    "message": "宽度",
+    "description": "搜索宽度的范围。"
+  },
+  "menuContentHeaderSearchSize": {
+    "message": "尺寸",
+    "description": "搜索尺寸的范围。"
+  },
+  "menuContentHeaderSearchNewLineLabel": {
+    "message": "另起一行",
+    "description": "强制搜索另起一行的复选框。"
+  },
+  "menuContentHeaderSearchNewLineDescription": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制搜索另起一行的描述。"
+  },
+  "menuContentHeaderSearchEngineSelectedLabel": {
+    "message": "搜索引擎",
+    "description": "自定义搜索的标签。"
+  },
+  "menuContentHeaderSearchEngineSelectedCustom": {
+    "message": "自定义",
+    "description": "自定义搜索的选择选项。"
+  },
+  "menuContentHeaderSearchEngineCustomNameLabel": {
+    "message": "名称",
+    "description": "自定义搜索名称的标签。"
+  },
+  "menuContentHeaderSearchEngineCustomNamePlaceholder": {
+    "message": "搜索引擎名称",
+    "description": "自定义搜索名称的占位符。"
+  },
+  "menuContentHeaderSearchEngineCustomUrlLabel": {
+    "message": "URL",
+    "description": "自定义搜索 URL 的标签。"
+  },
+  "menuContentHeaderSearchEngineCustomUrlPlaceholder": {
+    "message": "https://",
+    "description": "自定义搜索 URL 的占位符。"
+  },
+  "menuContentHeaderSearchEngineCustomUrlHelperPara1": {
+    "message": "输入包含搜索参数的网址，例如：“https://vimeo.com/search?q=”",
+    "description": "自定义搜索 URL 的帮助文本。"
+  },
+  "menuContentHeaderSearchEngineCustomUrlHelperPara2": {
+    "message": "{appName} 将把在搜索框中输入的搜索词添加到上述 URL 的末尾。",
+    "description": "自定义搜索 URL 的帮助文本。"
+  },
+  "menuContentHeaderSearchEngineCustomQueryNameLabel": {
+    "message": "名称属性",
+    "description": "自定义搜索名称的标签。"
+  },
+  "menuContentHeaderSearchEngineCustomQueryNamePlaceholder": {
+    "message": "q",
+    "description": "自定义搜索名称的占位符。"
+  },
+  "menuContentHeaderSearchEngineCustomQueryNameHelperPara1": {
+    "message": "设置搜索输入字段的名称属性。",
+    "description": "自定义搜索名称的帮助文本。"
+  },
+  "menuContentHeaderSearchEngineCustomQueryNameHelperPara2": {
+    "message": "这定义了提交时传递给搜索引擎的名称。如果不确定，请留空。",
+    "description": "自定义搜索名称的帮助文本。"
+  },
+  "menuContentHeaderSearchEngineTextJustifyLabel": {
+    "message": "搜索文本对齐方式",
+    "description": "用于对齐搜索文本的标签。"
+  },
+  "menuContentHeaderSearchEngineTextJustifyLeft": {
+    "message": "左对齐",
+    "description": "用于将搜索文本左对齐的单选按钮。"
+  },
+  "menuContentHeaderSearchEngineTextJustifyCenter": {
+    "message": "居中",
+    "description": "用于将搜索文本居中对齐的单选按钮。"
+  },
+  "menuContentHeaderSearchEngineTextJustifyRight": {
+    "message": "右对齐",
+    "description": "用于将搜索文本右对齐的单选按钮。"
+  },
+  "menuContentHeaderSearchNewTab": {
+    "message": "在新标签页中打开搜索结果",
+    "description": "在新标签页中打开搜索结果的复选框。"
+  },
+  "menuContentBookmarkGeneralShow": {
+    "message": "显示书签",
+    "description": "显示书签的复选框。"
+  },
+  "menuContentBookmarkGeneralUrlShow": {
+    "message": "鼠标悬停时显示 URL",
+    "description": "鼠标悬停时显示书签 URL 的复选框。"
+  },
+  "menuContentBookmarkGeneralLineShow": {
+    "message": "显示书签线",
+    "description": "显示书签线的复选框。"
+  },
+  "menuContentBookmarkGeneralShadowShowLabel": {
+    "message": "鼠标悬停时显示阴影",
+    "description": "显示书签阴影的标签。"
+  },
+  "menuContentBookmarkGeneralShadowShowDescription": {
+    "message": "如果主题阴影设置为 0，则效果可能不可见。",
+    "description": "显示书签阴影的描述。"
+  },
+  "menuContentBookmarkGeneralHoverScaleShow": {
+    "message": "鼠标悬停时放大",
+    "description": "鼠标悬停时缩放书签的复选框。"
+  },
+  "menuContentBookmarkGeneralNewTab": {
+    "message": "在新标签页中打开书签",
+    "description": "在新标签页中打开书签的复选框。"
+  },
+  "menuContentBookmarkGeneralSize": {
+    "message": "书签尺寸",
+    "description": "书签尺寸的范围。"
+  },
+  "menuContentBookmarkStyleBlockLabel": {
+    "message": "块状",
+    "description": "书签块状样式的标签。"
+  },
+  "menuContentBookmarkStyleBlockDescription": {
+    "message": "方形书签磁贴。",
+    "description": "书签块状样式的描述。"
+  },
+  "menuContentBookmarkStyleListLabel": {
+    "message": "列表",
+    "description": "书签列表样式的标签。"
+  },
+  "menuContentBookmarkStyleListDescription": {
+    "message": "短而宽的书签磁贴。",
+    "description": "书签列表样式的描述。"
+  },
+  "menuContentBookmarkOrientationTop": {
+    "message": "顶部",
+    "description": "书签顶部方向的单选按钮。"
+  },
+  "menuContentBookmarkOrientationBottom": {
+    "message": "底部",
+    "description": "书签底部方向的单选按钮。"
+  },
+  "menuContentBookmarkOrientationHelperPara1": {
+    "message": "在书签磁贴的顶部或底部显示 URL 和控件。",
+    "description": "书签方向的帮助文本。"
+  },
+  "menuContentBookmarkSortLetter": {
+    "message": "按字母",
+    "description": "按字母排序书签的按钮。"
+  },
+  "menuContentBookmarkSortIcon": {
+    "message": "按图标",
+    "description": "按图标排序书签的按钮。"
+  },
+  "menuContentBookmarkSortName": {
+    "message": "按名称",
+    "description": "按名称排序书签的按钮。"
+  },
+  "menuContentGroupAlignmentJustifyLabel": {
+    "message": "分组详情区域对齐方式",
+    "description": "用于对齐分组项目的标签。"
+  },
+  "menuContentGroupAlignmentJustifyLeft": {
+    "message": "左对齐",
+    "description": "用于将分组项目左对齐的标签。"
+  },
+  "menuContentGroupAlignmentJustifyCenter": {
+    "message": "居中",
+    "description": "用于将分组项目居中对齐的标签。"
+  },
+  "menuContentGroupAlignmentJustifyRight": {
+    "message": "右对齐",
+    "description": "用于将分组项目右对齐的标签。"
+  },
+  "menuContentGroupAlignmentOrderLabel": {
+    "message": "分组详情顺序",
+    "description": "分组顺序的标签。"
+  },
+  "menuContentGroupAlignmentOrderHeaderBodyLabel": {
+    "message": "分组详情优先",
+    "description": "分组详情优先顺序的单选按钮。"
+  },
+  "menuContentGroupAlignmentOrderHeaderBodyDescription": {
+    "message": "将分组详情区域排序为显示在书签区域之前。",
+    "description": "分组详情优先顺序的帮助文本。"
+  },
+  "menuContentGroupAlignmentOrderBodyHeaderLabel": {
+    "message": "书签优先",
+    "description": "书签优先分组详情顺序的单选按钮。"
+  },
+  "menuContentGroupAlignmentOrderBodyHeaderDescription": {
+    "message": "将书签区域排序为显示在分组详情区域之前。",
+    "description": "书签优先分组详情顺序的帮助文本。"
+  },
+  "menuContentGroupNameSize": {
+    "message": "名称尺寸",
+    "description": "分组名称尺寸的范围。"
+  },
+  "menuContentGroupNameShow": {
+    "message": "全部显示",
+    "description": "显示全部分组名称的按钮。"
+  },
+  "menuContentGroupNameHide": {
+    "message": "全部隐藏",
+    "description": "隐藏全部分组名称的按钮。"
+  },
+  "menuContentGroupNameHelperPara1": {
+    "message": "分组名称也可以通过编辑单个分组来更改。",
+    "description": "显示和隐藏全部分组名称的帮助文本。"
+  },
+  "menuContentGroupCollapseShow": {
+    "message": "展开全部分组",
+    "description": "展开全部分组的按钮。"
+  },
+  "menuContentGroupCollapseHide": {
+    "message": "折叠全部分组",
+    "description": "折叠全部分组的按钮。"
+  },
+  "menuContentGroupToolbarSize": {
+    "message": "分组工具栏尺寸",
+    "description": "分组工具栏尺寸的范围。"
+  },
+  "menuContentGroupToolbarCollapseLabel": {
+    "message": "分组折叠控件",
+    "description": "分组工具栏折叠控件的标签。"
+  },
+  "menuContentGroupToolbarCollapseShow": {
+    "message": "全部显示",
+    "description": "显示全部分组工具栏折叠控件的按钮。"
+  },
+  "menuContentGroupToolbarCollapseHide": {
+    "message": "全部隐藏",
+    "description": "隐藏全部分组工具栏折叠控件的按钮。"
+  },
+  "menuContentGroupToolbarCollapseHelperPara1": {
+    "message": "分组工具栏折叠按钮也可以通过编辑单个分组来更改。",
+    "description": "分组工具栏折叠控件的帮助文本。"
+  },
+  "menuContentGroupToolbarOpenAllLabel": {
+    "message": "分组全部展开控件",
+    "description": "书签分组工具栏全部展开控件的标签。"
+  },
+  "menuContentGroupToolbarOpenAllShow": {
+    "message": "全部显示",
+    "description": "显示全部分组工具栏全部展开控件的按钮。"
+  },
+  "menuContentGroupToolbarOpenAllHide": {
+    "message": "全部隐藏",
+    "description": "隐藏全部书签分组工具栏全部展开控件的按钮。"
+  },
+  "menuContentGroupToolbarOpenAllHelperPara1": {
+    "message": "分组工具栏全部展开按钮也可以通过编辑单个分组来更改。",
+    "description": "书签分组工具栏全部展开控件的帮助文本。"
+  },
+  "menuContentToolbarSize": {
+    "message": "工具栏尺寸",
+    "description": "书签分组工具栏尺寸的范围。"
+  },
+  "menuContentToolbarLocationCorner": {
+    "message": "在角落",
+    "description": "书签分组工具栏在角落的单选按钮。"
+  },
+  "menuContentToolbarLocationHeader": {
+    "message": "在页眉中",
+    "description": "书签分组工具栏在页眉中的单选按钮。"
+  },
+  "menuContentToolbarLocationHelperPara1": {
+    "message": "将工具栏放置在页眉内或窗口的角落。",
+    "description": "工具栏位置的帮助文本。"
+  },
+  "menuContentToolbarLocationNewLineLabel": {
+    "message": "另起一行",
+    "description": "强制书签分组工具栏另起一行的复选框。"
+  },
+  "menuContentToolbarLocationNewLineDescription": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制书签分组工具栏另起一行的描述。"
+  },
+  "menuContentToolbarLocationNewLineHelperPara1": {
+    "message": "仅当工具栏位于页眉内时可用。",
+    "description": "书签分组工具栏另起一行的帮助文本。"
+  },
+  "menuContentToolbarPositionLabel": {
+    "message": "工具栏位置",
+    "description": "工具栏角落位置的标签。"
+  },
+  "menuContentToolbarPositionTopLeft": {
+    "message": "左上",
+    "description": "书签分组工具栏位于左上角的单选按钮。"
+  },
+  "menuContentToolbarPositionTopRight": {
+    "message": "右上",
+    "description": "书签分组工具栏位于右上角的单选按钮。"
+  },
+  "menuContentToolbarPositionBottomLeft": {
+    "message": "左下",
+    "description": "书签分组工具栏位于左下角的单选按钮。"
+  },
+  "menuContentToolbarPositionBottomRight": {
+    "message": "右下",
+    "description": "书签分组工具栏位于右下角的单选按钮。"
+  },
+  "menuContentToolbarPositionHelper1Para1": {
+    "message": "将工具栏放置在窗口的四个角之一。",
+    "description": "书签分组工具栏角落位置的帮助文本。"
+  },
+  "menuContentToolbarPositionHelper2Para1": {
+    "message": "仅当工具栏位于角落时可用。",
+    "description": "书签分组工具栏角落位置的帮助文本。"
+  },
+  "menuContentToolbarControlsAccent": {
+    "message": "显示强调色控件",
+    "description": "显示书签分组工具栏强调色控件的复选框。"
+  },
+  "menuContentToolbarControlsAdd": {
+    "message": "显示添加控件",
+    "description": "显示书签分组工具栏添加控件的复选框。"
+  },
+  "menuContentToolbarControlsEdit": {
+    "message": "显示编辑控件",
+    "description": "显示书签分组工具栏编辑控件的复选框。"
+  },
+  "menuContentDataRestoreFile": {
+    "message": "从文件导入",
+    "description": "备份数据文件导入的输入框。"
+  },
+  "menuContentDataRestoreClipboard": {
+    "message": "从剪贴板导入",
+    "description": "剪贴板备份数据导入的按钮。"
+  },
+  "menuContentDataRestoreHelperPara1": {
+    "message": "恢复先前导出的 {appName} 备份。",
+    "description": "备份数据导入的帮助文本。"
+  },
+  "menuContentDataRestoreDrop": {
+    "message": "或在此处拖放 {appName} 备份文件。",
+    "description": "备份数据文件拖放区域的标签。"
+  },
+  "menuContentDataBackupFile": {
+    "message": "导出数据",
+    "description": "导出备份数据文件的按钮。"
+  },
+  "menuContentDataBackupClipboard": {
+    "message": "复制到剪贴板",
+    "description": "将备份数据复制到剪贴板的按钮。"
+  },
+  "menuContentDataBackupHelperPara1": {
+    "message": "下载 {appName} 书签和设置的备份。",
+    "description": "数据备份的帮助文本。"
+  },
+  "menuContentDataBackupHelperPara2": {
+    "message": "此文件稍后可以在此设备或其他设备上导入。",
+    "description": "数据备份的帮助文本。"
+  },
+  "menuContentDataClearAll": {
+    "message": "清除所有数据",
+    "description": "清除所有数据的按钮。"
+  },
+  "menuContentDataClearPartial": {
+    "message": "清除除书签外的所有数据",
+    "description": "清除部分数据的按钮。"
+  },
+  "menuContentDataClearAlertPara": {
+    "message": "清除所有数据将导致您丢失书签。",
+    "description": "清除所有数据的警告信息。"
+  },
+  "menuContentDataClearAlertLink": {
+    "message": "备份您的数据",
+    "description": "备份数据的链接。"
+  },
+  "menuContentDataClearHelperPara1": {
+    "message": "清除所有数据以将 {appName} 重置为默认状态。",
+    "description": "清除所有数据的帮助文本。"
+  },
+  "menuContentDataClearHelperPara2": {
+    "message": "或者，可以清除所有设置，但保留当前的书签和分组。",
+    "description": "清除所有数据的帮助文本。"
+  },
+  "menuContentLanguageSelect": {
+    "message": "语言",
+    "description": "语言选择。"
+  },
+  "menuContentLanguageSystem": {
+    "message": "使用系统语言",
+    "description": "使用系统定义的语言的选项。"
+  },
+  "menuContentLanguageAlertPara": {
+    "message": "发现翻译不正确？",
+    "description": "语言选择的警告信息。"
+  },
+  "menuContentLanguageAlertLink": {
+    "message": "帮助翻译 {appName}",
+    "description": "帮助翻译该项目的链接。"
+  },
+  "menuContentSupportPageApplyToAll": {
+    "message": "将书签设置应用于全部",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageBrowser": {
+    "message": "浏览器支持",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageCookies": {
+    "message": "Cookie 和缓存",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageData": {
+    "message": "数据备份和恢复",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageLocalBackgroundImage": {
+    "message": "本地背景图片",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageProtectedUrl": {
+    "message": "受保护的 URL",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageRecovering": {
+    "message": "恢复设置和书签",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageResetting": {
+    "message": "打开浏览器时重置",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPagePrivacy": {
+    "message": "尊重您的隐私",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageBackgroundImageVideo": {
+    "message": "设置背景视频或图片",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPageFirefox": {
+    "message": "将 {appName} 设置为您的 Firefox 主页",
+    "description": "项目 Wiki 的支持链接。"
+  },
+  "menuContentSupportPara": {
+    "message": "如需更多支持或反馈：",
+    "description": "获取更多支持或提供反馈的段落。"
+  },
+  "menuContentSupportLink1": {
+    "message": "提交问题。",
+    "description": "打开问题的链接。"
+  },
+  "menuContentSupportLink2": {
+    "message": "查看 Wiki。",
+    "description": "项目 Wiki 的链接。"
+  },
+  "menuContentCoffeePara": {
+    "message": "{appName} 是免费的，欢迎以咖啡的形式表示感谢！",
+    "description": "解释项目免费的段落。"
+  },
+  "menuContentCoffeeButton": {
+    "message": "请我喝咖啡",
+    "description": "请我喝咖啡以支持该项目的链接。"
+  },
+  "menuContentAppPara1": {
+    "message": "与社区分享您的设置。",
+    "description": "关于在哪里与社区分享的段落。"
+  },
+  "menuContentAppLink1": {
+    "message": "在 Reddit/r/{appName} 上找到。",
+    "description": "Reddit 上社区的链接。"
+  },
+  "menuContentAppPara2": {
+    "message": "本项目是开源的。",
+    "description": "关于本项目是开源的段落。"
+  },
+  "menuContentAppLink2": {
+    "message": "在 GitHub 上找到。",
+    "description": "GitHub 上项目的链接。"
+  },
+  "menuContentAppLink3": {
+    "message": "GNU 通用公共许可证 v3.0。",
+    "description": "项目许可证的链接。"
+  },
+  "bookmarkTileControlLeft": {
+    "message": "向左移动此书签",
+    "description": "书签磁贴向左移动控件的按钮。"
+  },
+  "bookmarkTileControlSort": {
+    "message": "拖动书签以重新排序",
+    "description": "书签磁贴拖动排序控件的按钮。"
+  },
+  "bookmarkTileControlRight": {
+    "message": "向右移动此书签",
+    "description": "书签磁贴向右移动控件的按钮。"
+  },
+  "bookmarkTileControlEdit": {
+    "message": "编辑此书签",
+    "description": "书签磁贴编辑控件的按钮。"
+  },
+  "bookmarkTileControlRemove": {
+    "message": "移除此书签",
+    "description": "书签磁贴移除控件的按钮。"
+  },
+  "bookmarkAddHeading": {
+    "message": "添加新书签",
+    "description": "书签添加模态框的标题。"
+  },
+  "bookmarkAddSuccessText": {
+    "message": "添加",
+    "description": "确认添加书签的按钮。"
+  },
+  "bookmarkAddCancelText": {
+    "message": "取消",
+    "description": "取消添加书签的按钮。"
+  },
+  "bookmarkRemoveHeadingName": {
+    "message": "移除",
+    "description": "书签移除模态框的带名称标题。"
+  },
+  "bookmarkRemoveHeadingUnnamed": {
+    "message": "移除未命名书签",
+    "description": "书签移除模态框的无名称标题。"
+  },
+  "bookmarkRemoveContent": {
+    "message": "您确定要移除此书签吗？此操作无法撤销。",
+    "description": "书签移除模态框的段落。"
+  },
+  "bookmarkRemoveSuccessText": {
+    "message": "移除",
+    "description": "确认移除书签的按钮。"
+  },
+  "bookmarkRemoveCancelText": {
+    "message": "取消",
+    "description": "取消移除书签的按钮。"
+  },
+  "bookmarkEditHeadingName": {
+    "message": "编辑",
+    "description": "书签编辑模态框的带名称标题。"
+  },
+  "bookmarkEditHeadingUnnamed": {
+    "message": "编辑未命名书签",
+    "description": "书签编辑模态框的无名称标题。"
+  },
+  "bookmarkEditSuccessText": {
+    "message": "保存",
+    "description": "确认编辑书签的按钮。"
+  },
+  "bookmarkEditCancelText": {
+    "message": "取消",
+    "description": "取消编辑书签的按钮。"
+  },
+  "bookmarkFormTabVisual": {
+    "message": "视觉 & 名称",
+    "description": "书签表单视觉标签页的标签。"
+  },
+  "bookmarkFormTabAddress": {
+    "message": "地址",
+    "description": "书签表单地址标签页的标签。"
+  },
+  "bookmarkFormTabPosition": {
+    "message": "位置",
+    "description": "书签表单位置标签页的标签。"
+  },
+  "bookmarkFormTabLayout": {
+    "message": "布局",
+    "description": "书签表单布局标签页的标签。"
+  },
+  "bookmarkFormTabTheme": {
+    "message": "主题",
+    "description": "书签表单主题标签页的标签。"
+  },
+  "bookmarkFormSectionVisualHeading": {
+    "message": "视觉 & 名称",
+    "description": "书签表单视觉页面的标题。"
+  },
+  "bookmarkFormSectionVisualDescription": {
+    "message": "在此书签磁贴上显示字母、图标、图片和名称。",
+    "description": "书签表单视觉页面的描述。"
+  },
+  "bookmarkFormSectionAddressHeading": {
+    "message": "地址",
+    "description": "书签表单地址页面的标题。"
+  },
+  "bookmarkFormSectionAddressDescription": {
+    "message": "请务必使用完整的 URL 并包含“https://…”",
+    "description": "书签表单地址页面的描述。"
+  },
+  "bookmarkFormSectionPositionHeading": {
+    "message": "位置",
+    "description": "书签表单位置页面的标题。"
+  },
+  "bookmarkFormSectionPositionDescription": {
+    "message": "将此书签放置在哪个分组中。",
+    "description": "书签表单位置页面的描述。"
+  },
+  "bookmarkFormSectionLayoutHeading": {
+    "message": "布局",
+    "description": "书签表单布局页面的标题。"
+  },
+  "bookmarkFormSectionLayoutDescription": {
+    "message": "更改视觉元素和名称的位置、缩放和方向。",
+    "description": "书签表单布局页面的描述。"
+  },
+  "bookmarkFormSectionThemeHeading": {
+    "message": "主题",
+    "description": "书签表单主题页面的标题。"
+  },
+  "bookmarkFormSectionThemeDescription": {
+    "message": "覆盖主题和强调色。",
+    "description": "书签表单主题页面的描述。"
+  },
+  "bookmarkFormUrlLabel": {
+    "message": "URL",
+    "description": "书签 URL 的标签。"
+  },
+  "bookmarkFormUrlPlaceholder": {
+    "message": "https://www.example.com/",
+    "description": "书签 URL 的占位符。"
+  },
+  "bookmarkFormDisplayAlignmentLabel": {
+    "message": "视觉元素和名称对齐方式",
+    "description": "书签磁贴显示对齐方式的标签。"
+  },
+  "bookmarkFormDisplayAlignmentTopLeft": {
+    "message": "左上",
+    "description": "用于将书签磁贴显示内容左上对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentTopCenter": {
+    "message": "顶部居中",
+    "description": "用于将书签磁贴显示内容顶部居中对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentTopRight": {
+    "message": "右上",
+    "description": "用于将书签磁贴显示内容右上对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentCenterLeft": {
+    "message": "左中",
+    "description": "用于将书签磁贴显示内容左中对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentCenterCenter": {
+    "message": "居中",
+    "description": "用于将书签磁贴显示内容居中对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentCenterRight": {
+    "message": "右中",
+    "description": "用于将书签磁贴显示内容右中对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentBottomLeft": {
+    "message": "左下",
+    "description": "用于将书签磁贴显示内容左下对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentBottomCenter": {
+    "message": "底部居中",
+    "description": "用于将书签磁贴显示内容底部居中对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayAlignmentBottomRight": {
+    "message": "右下",
+    "description": "用于将书签磁贴显示内容右下对齐的单选按钮。"
+  },
+  "bookmarkFormDisplayDirectionVerticalLabel": {
+    "message": "垂直",
+    "description": "书签磁贴显示垂直方向的标签。"
+  },
+  "bookmarkFormDisplayDirectionVerticalDescription": {
+    "message": "将视觉元素和名称上下堆叠。",
+    "description": "书签磁贴显示垂直方向的描述。"
+  },
+  "bookmarkFormDisplayDirectionHorizontalLabel": {
+    "message": "水平",
+    "description": "书签磁贴显示水平方向的标签。"
+  },
+  "bookmarkFormDisplayDirectionHorizontalDescription": {
+    "message": "将视觉元素和名称并排放置。",
+    "description": "书签磁贴显示水平方向的描述。"
+  },
+  "bookmarkFormDisplayOrderVisualNameLabel": {
+    "message": "视觉元素优先",
+    "description": "书签磁贴显示视觉元素优先顺序的标签。"
+  },
+  "bookmarkFormDisplayOrderVisualNameDescription": {
+    "message": "将视觉元素放置在名称之前。",
+    "description": "书签磁贴显示视觉元素优先顺序的描述。"
+  },
+  "bookmarkFormDisplayOrderNameVisualLabel": {
+    "message": "名称优先",
+    "description": "书签磁贴显示名称优先顺序的标签。"
+  },
+  "bookmarkFormDisplayOrderNameVisualDescription": {
+    "message": "将名称放置在视觉元素之前。",
+    "description": "书签磁贴显示名称优先顺序的描述。"
+  },
+  "bookmarkFormDisplayRotate": {
+    "message": "旋转",
+    "description": "书签磁贴视觉旋转的范围。"
+  },
+  "bookmarkFormDisplayTranslateLabel": {
+    "message": "调整视觉元素位置",
+    "description": "书签磁贴视觉平移的标签。"
+  },
+  "bookmarkFormDisplayTranslateX": {
+    "message": "水平",
+    "description": "书签磁贴视觉元素沿 x 轴平移的范围。"
+  },
+  "bookmarkFormDisplayTranslateY": {
+    "message": "垂直",
+    "description": "书签磁贴视觉元素沿 y 轴平移的范围。"
+  },
+  "bookmarkFormDisplayGutter": {
+    "message": "页间距",
+    "description": "书签磁贴视觉元素和名称之间页间距的范围。"
+  },
+  "bookmarkFormDisplayVisualShowLabel": {
+    "message": "显示视觉元素",
+    "description": "显示书签磁贴视觉元素的复选框。"
+  },
+  "bookmarkFormDisplayVisualShowDescription": {
+    "message": "在此书签六边形上显示字母、图标或图片。",
+    "description": "显示书签磁贴视觉元素的描述。"
+  },
+  "bookmarkFormDisplayVisualTypeLetter": {
+    "message": "字母",
+    "description": "书签磁贴视觉元素为字母的单选按钮。"
+  },
+  "bookmarkFormDisplayVisualTypeIcon": {
+    "message": "图标",
+    "description": "书签磁贴视觉元素为图标的单选按钮。"
+  },
+  "bookmarkFormDisplayVisualTypeImage": {
+    "message": "图片",
+    "description": "书签磁贴视觉元素为图片的单选按钮。"
+  },
+  "bookmarkFormDisplayVisualSize": {
+    "message": "视觉元素尺寸",
+    "description": "书签磁贴视觉元素尺寸的范围。"
+  },
+  "bookmarkFormDisplayVisualLetterTextLabel": {
+    "message": "书签字母",
+    "description": "书签磁贴视觉文本的标签。"
+  },
+  "bookmarkFormDisplayVisualLetterTextPlaceholder": {
+    "message": "E",
+    "description": "书签磁贴视觉文本的占位符。"
+  },
+  "bookmarkFormDisplayVisualIconTextLabel": {
+    "message": "书签图标",
+    "description": "书签磁贴视觉图标的标签。"
+  },
+  "bookmarkFormDisplayVisualIconTextPlaceholder": {
+    "message": "FontAwesome 品牌或图标",
+    "description": "书签磁贴视觉图标的占位符。"
+  },
+  "bookmarkFormDisplayVisualIconRemove": {
+    "message": "移除图标",
+    "description": "移除书签磁贴视觉图标的按钮。"
+  },
+  "bookmarkFormDisplayVisualImageUrlLabel": {
+    "message": "书签图片",
+    "description": "书签磁贴视觉图片 URL 的标签。"
+  },
+  "bookmarkFormDisplayVisualImageUrlPlaceholder": {
+    "message": "https://www.example.com/image.jpg",
+    "description": "书签磁贴视觉图片 URL 的占位符。"
+  },
+  "bookmarkFormDisplayVisualShadowSize": {
+    "message": "视觉阴影",
+    "description": "书签磁贴视觉阴影的范围。"
+  },
+  "bookmarkFormDisplayVisualShadowHelperPara1": {
+    "message": "视觉阴影仅适用于字母或图标。",
+    "description": "书签磁贴视觉阴影的帮助文本。"
+  },
+  "bookmarkFormDisplayNameShow": {
+    "message": "显示名称",
+    "description": "显示书签磁贴名称的复选框。"
+  },
+  "bookmarkFormDisplayNameTextLabel": {
+    "message": "书签名称",
+    "description": "书签磁贴名称的标签。"
+  },
+  "bookmarkFormDisplayNameTextPlaceholder": {
+    "message": "示例",
+    "description": "书签磁贴名称的占位符。"
+  },
+  "bookmarkFormDisplayNameSize": {
+    "message": "名称尺寸",
+    "description": "书签磁贴名称尺寸的范围。"
+  },
+  "bookmarkFormAccentByThemeLabel": {
+    "message": "主题强调色",
+    "description": "书签磁贴使用主题强调色的标签。"
+  },
+  "bookmarkFormAccentByThemeDescription": {
+    "message": "使用主题定义的强调色。",
+    "description": "书签磁贴使用主题强调色的描述。"
+  },
+  "bookmarkFormAccentByCustomLabel": {
+    "message": "自定义强调色",
+    "description": "书签磁贴使用自定义强调色的标签。"
+  },
+  "bookmarkFormAccentByCustomDescription": {
+    "message": "覆盖主题强调色。",
+    "description": "书签磁贴使用自定义强调色的描述。"
+  },
+  "bookmarkFormAccentColor": {
+    "message": "强调色",
+    "description": "书签磁贴强调色的标签。"
+  },
+  "bookmarkFormColorByThemeLabel": {
+    "message": "主题颜色",
+    "description": "书签磁贴使用主题颜色的标签。"
+  },
+  "bookmarkFormColorByThemeDescription": {
+    "message": "使用主题定义的颜色。",
+    "description": "书签磁贴使用主题颜色的描述。"
+  },
+  "bookmarkFormColorByCustomLabel": {
+    "message": "自定义颜色",
+    "description": "书签磁贴使用自定义颜色的标签。"
+  },
+  "bookmarkFormColorByCustomDescription": {
+    "message": "覆盖主题颜色。",
+    "description": "书签磁贴使用自定义颜色的描述。"
+  },
+  "bookmarkFormColorColor": {
+    "message": "颜色",
+    "description": "书签磁贴颜色的标签。"
+  },
+  "bookmarkFormColorOpacity": {
+    "message": "不透明度",
+    "description": "书签磁贴不透明度的范围。"
+  },
+  "bookmarkFormBackgroundShowLabel": {
+    "message": "显示背景",
+    "description": "书签磁贴背景的标签。"
+  },
+  "bookmarkFormBackgroundShowDescription": {
+    "message": "在此书签磁贴上显示图片或视频背景。",
+    "description": "书签磁贴背景的描述。"
+  },
+  "bookmarkFormBackgroundTypeImage": {
+    "message": "图片",
+    "description": "书签磁贴图片背景的单选按钮。"
+  },
+  "bookmarkFormBackgroundTypeVideo": {
+    "message": "视频",
+    "description": "书签磁贴视频背景的单选按钮。"
+  },
+  "bookmarkFormBackgroundOpacity": {
+    "message": "不透明度",
+    "description": "书签磁贴背景不透明度的范围。"
+  },
+  "bookmarkFormBackgroundImageLabel": {
+    "message": "背景图片 URL",
+    "description": "书签磁贴背景图片 URL 的标签。"
+  },
+  "bookmarkFormBackgroundImagePlaceholder": {
+    "message": "https://www.example.com/image.jpg",
+    "description": "书签磁贴背景图片 URL 的占位符。"
+  },
+  "bookmarkFormBackgroundImageHelperPara1": {
+    "message": "背景图片仅支持图片文件的直接 URL。",
+    "description": "书签磁贴背景图片 URL 的帮助文本。"
+  },
+  "bookmarkFormBackgroundVideoLabel": {
+    "message": "背景视频 URL",
+    "description": "书签磁贴背景视频 URL 的标签。"
+  },
+  "bookmarkFormBackgroundVideoPlaceholder": {
+    "message": "https://www.example.com/video.mp4",
+    "description": "书签磁贴背景视频 URL 的占位符。"
+  },
+  "bookmarkFormBackgroundVideoHelperPara1": {
+    "message": "背景视频仅支持视频文件的直接 URL。支持 MP4 和 WebM 格式。",
+    "description": "书签磁贴背景视频 URL 的帮助文本。"
+  },
+  "bookmarkFormBackgroundVideoHelperPara2": {
+    "message": "无法使用 YouTube 页面 URL。",
+    "description": "书签磁贴背景视频 URL 的帮助文本。"
+  },
+  "bookmarkFormBorder": {
+    "message": "边框",
+    "description": "书签磁贴边框的范围。"
+  },
+  "bookmarkFormShapeWideLabel": {
+    "message": "宽磁贴",
+    "description": "书签磁贴宽形状的标签。"
+  },
+  "bookmarkFormShapeWideDescription": {
+    "message": "书签磁贴跨越两列。",
+    "description": "书签磁贴宽形状的描述。"
+  },
+  "bookmarkFormShapeTallLabel": {
+    "message": "高磁贴",
+    "description": "书签磁贴高形状的标签。"
+  },
+  "bookmarkFormShapeTallDescription": {
+    "message": "书签磁贴跨越两行。",
+    "description": "书签磁贴高形状的描述。"
+  },
+  "bookmarkFormGroupDestinationExisting": {
+    "message": "现有分组",
+    "description": "书签位置在现有书签分组中的单选按钮。"
+  },
+  "bookmarkFormGroupDestinationNew": {
+    "message": "新分组",
+    "description": "书签位置在新书签分组中的单选按钮。"
+  },
+  "bookmarkFormGroupNameLabel": {
+    "message": "分组名称",
+    "description": "书签分组名称的标签。"
+  },
+  "bookmarkFormGroupNamePlaceholder": {
+    "message": "示例分组",
+    "description": "书签分组名称的占位符。"
+  },
+  "bookmarkFormGroupRandom": {
+    "message": "随机分组名称",
+    "description": "随机书签分组名称的按钮。"
+  },
+  "bookmarkFormGroupPositionGroup": {
+    "message": "分组",
+    "description": "书签分组位置的选择框。"
+  },
+  "bookmarkFormGroupPositionItem": {
+    "message": "位置",
+    "description": "书签在分组中位置的选择框。"
+  },
+  "bookmarkFormPropagateVisualLabel": {
+    "message": "将“显示视觉元素”和“显示名称”应用于其他书签",
+    "description": "用于将当前书签视觉设置共享到所有其他书签的复选框。"
+  },
+  "bookmarkFormPropagateVisualDescriptionPara1": {
+    "message": "字母、图标、图片和名称文本将不会共享。",
+    "description": "用于将当前书签视觉设置共享到所有其他书签的帮助文本。"
+  },
+  "bookmarkFormPropagateVisualDescriptionPara2": {
+    "message": "用于隐藏所有书签上的视觉元素或名称。",
+    "description": "用于将当前书签视觉设置共享到所有其他书签的帮助文本。"
+  },
+  "bookmarkFormPropagateLayoutLabel": {
+    "message": "将布局应用于其他书签",
+    "description": "用于将当前书签布局设置共享到所有其他书签的复选框。"
+  },
+  "bookmarkFormPropagateLayoutDescriptionPara1": {
+    "message": "保存后，将上述布局应用于所有其他书签。",
+    "description": "用于将当前书签布局设置共享到所有其他书签的帮助文本。"
+  },
+  "bookmarkFormPropagateLayoutDescriptionPara2": {
+    "message": "仅视觉元素和名称的尺寸、对齐方式、顺序、位置和页间距将应用于全部。",
+    "description": "用于将当前书签布局设置共享到所有其他书签的帮助文本。"
+  },
+  "bookmarkFormPropagateThemeLabel": {
+    "message": "将主题应用于其他书签",
+    "description": "用于将当前书签主题设置共享到所有其他书签的复选框。"
+  },
+  "bookmarkFormPropagateThemeDescriptionPara1": {
+    "message": "保存后，将上述主题应用于所有其他书签。",
+    "description": "用于将当前书签主题设置共享到所有其他书签的帮助文本。"
+  },
+  "bookmarkFormPropagateThemeDescriptionPara2": {
+    "message": "仅颜色、强调色、不透明度、边框和视觉阴影将应用于全部。",
+    "description": "用于将当前书签主题设置共享到所有其他书签的帮助文本。"
+  },
+  "bookmarkPreviewFull": {
+    "message": "预览",
+    "description": "书签全尺寸预览的段落。"
+  },
+  "bookmarkPreviewHalf": {
+    "message": "预览（50% 缩放）",
+    "description": "书签半尺寸预览的段落。"
+  },
+  "groupAreaControlUp": {
+    "message": "向上移动此分组",
+    "description": "书签分组向上移动控件的按钮。"
+  },
+  "groupAreaControlSort": {
+    "message": "拖动分组以重新排序",
+    "description": "书签分组拖动排序控件的按钮。"
+  },
+  "groupAreaControlDown": {
+    "message": "向下移动此分组",
+    "description": "书签分组向下移动控件的按钮。"
+  },
+  "groupAreaControlEdit": {
+    "message": "编辑此分组",
+    "description": "书签分组编辑控件的按钮。"
+  },
+  "groupAreaControlRemove": {
+    "message": "移除此分组",
+    "description": "书签分组移除控件的按钮。"
+  },
+  "groupAreaControlOpenAll": {
+    "message": "展开此分组中的所有书签",
+    "description": "用于展开书签分组中所有书签的书签分组控件的按钮。"
+  },
+  "groupAreaControlCollapse": {
+    "message": "折叠此分组",
+    "description": "用于折叠书签分组的书签分组控件的按钮。"
+  },
+  "groupAddHeading": {
+    "message": "添加新分组",
+    "description": "书签分组添加模态框的标题。"
+  },
+  "groupAddSuccessText": {
+    "message": "添加",
+    "description": "确认添加书签分组的按钮。"
+  },
+  "groupAddCancelText": {
+    "message": "取消",
+    "description": "取消添加书签分组的按钮。"
+  },
+  "groupRemoveHeadingName": {
+    "message": "移除",
+    "description": "书签分组移除模态框的带名称标题。"
+  },
+  "groupRemoveHeadingUnnamed": {
+    "message": "移除未命名分组",
+    "description": "书签分组移除模态框的无名称标题。"
+  },
+  "groupRemoveContent": {
+    "message": "您确定要移除此分组以及其中的所有书签吗？此操作无法撤销。",
+    "description": "书签分组移除模态框的段落。"
+  },
+  "groupRemoveSuccessText": {
+    "message": "移除",
+    "description": "确认移除书签分组的按钮。"
+  },
+  "groupRemoveCancelText": {
+    "message": "取消",
+    "description": "取消移除书签分组的按钮。"
+  },
+  "groupEditHeadingName": {
+    "message": "编辑",
+    "description": "书签分组编辑模态框的带名称标题。"
+  },
+  "groupEditHeadingUnnamed": {
+    "message": "编辑未命名分组",
+    "description": "书签分组编辑模态框的无名称标题。"
+  },
+  "groupEditSuccessText": {
+    "message": "保存",
+    "description": "确认编辑书签分组的按钮。"
+  },
+  "groupEditCancelText": {
+    "message": "取消",
+    "description": "取消编辑书签分组的按钮。"
+  },
+  "groupFormSectionNameHeading": {
+    "message": "名称",
+    "description": "书签分组表单名称的标题。"
+  },
+  "groupFormSectionNameDescription": {
+    "message": "在此分组上方显示名称。",
+    "description": "书签分组表单名称的描述。"
+  },
+  "groupFormSectionToolbarHeading": {
+    "message": "工具栏",
+    "description": "书签分组表单工具栏的标题。"
+  },
+  "groupFormSectionToolbarDescription": {
+    "message": "显示用于展开全部或显示/隐藏此分组中书签的控件。",
+    "description": "书签分组表单工具栏的描述。"
+  },
+  "groupFormSectionOrderingHeading": {
+    "message": "排序",
+    "description": "书签分组表单顺序的标题。"
+  },
+  "groupFormSectionOrderingDescription": {
+    "message": "此分组的位置。",
+    "description": "书签分组表单顺序的描述。"
+  },
+  "groupFormNameShow": {
+    "message": "显示分组名称",
+    "description": "显示书签分组名称的复选框。"
+  },
+  "groupFormNameTextLabel": {
+    "message": "分组名称",
+    "description": "书签分组名称的标签。"
+  },
+  "groupFormNameTextPlaceholder": {
+    "message": "示例分组",
+    "description": "书签分组名称的占位符。"
+  },
+  "groupFormNameRandom": {
+    "message": "随机分组名称",
+    "description": "随机书签分组名称的按钮。"
+  },
+  "groupFormCollapseShowLabel": {
+    "message": "显示折叠",
+    "description": "显示书签分组工具栏折叠按钮的标签。"
+  },
+  "groupFormCollapseShowDescription": {
+    "message": "折叠按钮将显示或隐藏此分组中的书签。",
+    "description": "显示书签分组工具栏折叠按钮的描述。"
+  },
+  "groupFormOpenAllShowLabel": {
+    "message": "显示全部展开",
+    "description": "显示书签分组工具栏全部展开按钮的标签。"
+  },
+  "groupFormOpenAllShowDescription": {
+    "message": "如果此分组中至少有一个书签，则将显示全部展开按钮。",
+    "description": "显示书签分组工具栏全部展开按钮的描述。"
+  },
+  "groupFormDestination": {
+    "message": "位置",
+    "description": "书签分组位置的选择框。"
+  },
+  "themeCustomTileControlEdit": {
+    "message": "编辑此已保存的自定义主题",
+    "description": "用于编辑已保存的自定义主题的按钮。"
+  },
+  "themeCustomTileControlRemove": {
+    "message": "移除此已保存的自定义主题",
+    "description": "用于移除已保存的自定义主题的按钮。"
+  },
+  "themeCustomFormNameLabel": {
+    "message": "名称",
+    "description": "已保存的自定义主题名称的标签。"
+  },
+  "themeCustomFormNamePlaceholder": {
+    "message": "示例主题",
+    "description": "已保存的自定义主题名称的占位符。"
+  },
+  "themeCustomFormRandom": {
+    "message": "随机主题名称",
+    "description": "随机已保存的自定义主题名称的按钮。"
+  },
+  "themeCustomAddHeading": {
+    "message": "保存当前主题",
+    "description": "已保存的自定义主题添加模态框的标题。"
+  },
+  "themeCustomAddSuccessText": {
+    "message": "保存",
+    "description": "确认添加已保存的自定义主题的按钮。"
+  },
+  "themeCustomAddCancelText": {
+    "message": "取消",
+    "description": "取消添加已保存的自定义主题的按钮。"
+  },
+  "themeCustomRemoveHeadingName": {
+    "message": "移除",
+    "description": "已保存的自定义主题移除模态框的带名称标题。"
+  },
+  "themeCustomRemoveHeadingUnnamed": {
+    "message": "移除未命名的自定义主题",
+    "description": "已保存的自定义主题移除模态框的无名称标题。"
+  },
+  "themeCustomRemoveContent": {
+    "message": "您确定要移除此已保存的自定义主题吗？此操作无法撤销。",
+    "description": "已保存的自定义主题移除模态框的段落。"
+  },
+  "themeCustomRemoveSuccessText": {
+    "message": "保存",
+    "description": "确认移除已保存的自定义主题的按钮。"
+  },
+  "themeCustomRemoveCancelText": {
+    "message": "取消",
+    "description": "取消移除已保存的自定义主题的按钮。"
+  },
+  "themeCustomEditHeadingName": {
+    "message": "编辑",
+    "description": "已保存的自定义主题编辑模态框的带名称标题。"
+  },
+  "themeCustomEditHeadingUnnamed": {
+    "message": "编辑未命名的自定义主题",
+    "description": "已保存的自定义主题编辑模态框的无名称标题。"
+  },
+  "themeCustomEditSuccessText": {
+    "message": "移除",
+    "description": "确认编辑已保存的自定义主题的按钮。"
+  },
+  "themeCustomEditCancelText": {
+    "message": "取消",
+    "description": "取消编辑已保存的自定义主题的按钮。"
+  },
+  "toolbarAccent": {
+    "message": "强调色",
+    "description": "工具栏强调色控件的按钮。"
+  },
+  "toolbarAddLabel": {
+    "message": "添加",
+    "description": "工具栏添加控件的按钮。"
+  },
+  "toolbarAddGroup": {
+    "message": "新建分组",
+    "description": "工具栏添加新书签分组的控件的按钮。"
+  },
+  "toolbarAddBookmark": {
+    "message": "新建书签",
+    "description": "工具栏添加新书签的控件的按钮。"
+  },
+  "toolbarEdit": {
+    "message": "编辑分组和书签",
+    "description": "工具栏切换编辑模式的按钮。"
+  },
+  "toolbarSetting": {
+    "message": "打开设置菜单",
+    "description": "工具栏打开设置菜单的按钮。"
+  },
+  "dataFormDescription": {
+    "message": "您可以恢复备份文件的全部或部分内容。将恢复以下数据：",
+    "description": "从备份数据恢复的描述。"
+  },
+  "dataFormBookmarkIncludeLabel": {
+    "message": "书签",
+    "description": "从备份数据恢复书签的标题。"
+  },
+  "dataFormBookmarkIncludeDescriptionPara1": {
+    "message": "这包括所有分组和书签",
+    "description": "从备份数据恢复书签的描述。"
+  },
+  "dataFormBookmarkIncludeDescriptionPara2": {
+    "message": "导入时，书签将保留任何自定义颜色、强调色和边框。",
+    "description": "从备份数据恢复书签的描述。"
+  },
+  "dataFormBookmarkTypeRestore": {
+    "message": "替换现有书签",
+    "description": "从备份数据恢复时替换现有书签的单选按钮。"
+  },
+  "dataFormBookmarkTypeAppend": {
+    "message": "添加到现有书签",
+    "description": "从备份数据恢复时追加到现有书签的单选按钮。"
+  },
+  "dataFormThemeIncludeLabel": {
+    "message": "主题",
+    "description": "从备份数据恢复主题数据的标签。"
+  },
+  "dataFormThemeIncludeDescription": {
+    "message": "这包括颜色、强调色、字体、背景和任何已保存的自定义主题。",
+    "description": "从备份数据恢复主题数据的描述。"
+  },
+  "dataFormSetupIncludeLabel": {
+    "message": "设置",
+    "description": "从备份数据恢复设置数据的标签。"
+  },
+  "dataFormSetupIncludeDescription": {
+    "message": "这包括布局尺寸和位置、页眉区域尺寸、书签区域尺寸和其他用户设置。",
+    "description": "从备份数据恢复设置数据的描述。"
+  },
+  "dataRestoreHeading": {
+    "message": "从 {appName} 备份恢复",
+    "description": "恢复备份数据模态框的标题。"
+  },
+  "dataRestoreSuccessText": {
+    "message": "导入",
+    "description": "确认从备份数据恢复的按钮。"
+  },
+  "dataRestoreCancelText": {
+    "message": "取消",
+    "description": "取消从备份数据恢复的按钮。"
+  },
+  "dataClearAllHeading": {
+    "message": "清除所有 {appName} 数据？",
+    "description": "清除所有数据模态框的标题。"
+  },
+  "dataClearAllContentPara1": {
+    "message": "您确定要清除所有 {appName} 书签和设置吗？{appName} 将恢复为默认状态。",
+    "description": "清除所有数据模态框的段落。"
+  },
+  "dataClearAllContentPara2": {
+    "message": "此操作无法撤销。",
+    "description": "清除所有数据模态框的段落。"
+  },
+  "dataClearAllSuccessText": {
+    "message": "清除所有数据",
+    "description": "确认清除所有数据的按钮。"
+  },
+  "dataClearAllCancelText": {
+    "message": "取消",
+    "description": "取消清除所有数据的按钮。"
+  },
+  "dataClearPartialHeading": {
+    "message": "清除 {appName} 数据（书签除外）？",
+    "description": "清除部分数据模态框的标题。"
+  },
+  "dataClearPartialContentPara1": {
+    "message": "您确定要清除所有 {appName} 设置吗？{appName} 将恢复为默认状态，但您的书签和分组将保留。",
+    "description": "清除部分数据模态框的段落。"
+  },
+  "dataClearPartialContentPara2": {
+    "message": "此操作无法撤销。",
+    "description": "清除部分数据模态框的段落。"
+  },
+  "dataClearPartialSuccessText": {
+    "message": "清除除书签外的所有数据",
+    "description": "确认清除部分数据的按钮。"
+  },
+  "dataClearPartialCancelText": {
+    "message": "取消",
+    "description": "取消清除部分数据的按钮。"
+  },
+  "dataExportBackup": {
+    "message": "备份",
+    "description": "备份数据文件名的字符串。"
+  },
+  "dataFeedbackEmpty": {
+    "message": "未选择任何要导入的内容。",
+    "description": "备份数据为空时进行验证的段落。"
+  },
+  "dataFeedbackSuccess": {
+    "message": "成功！正在恢复 {appName} 书签和设置。",
+    "description": "备份数据有效时的段落。"
+  },
+  "dataFeedbackFailNotJson": {
+    "message": "不是 JSON 文件。请确保所选文件来自 {appName}。",
+    "description": "备份数据不是有效的 JSON 时的段落。"
+  },
+  "dataFeedbackFailNotAppJson": {
+    "message": "不是正确的 JSON 文件类型。请确保所选文件来自 {appName}。",
+    "description": "备份数据不是来自此项目的有效 JSON 时的段落。"
+  },
+  "dataFeedbackFailNotClipboardJson": {
+    "message": "不是正确的数据类型。请确保剪贴板中包含来自 {appName} 或 {appName} 备份 JSON 文件的数据。",
+    "description": "剪贴板中的备份数据不是有效的 JSON 时的段落。"
+  },
+  "controlGeneralReset": {
+    "message": "重置为默认值",
+    "description": "重置按钮控件的按钮。"
+  },
+  "controlColorTextPlaceholder": {
+    "message": "十六进制代码",
+    "description": "十六进制颜色代码的占位符。"
+  },
+  "controlColorRandom": {
+    "message": "随机颜色",
+    "description": "随机颜色的按钮。"
+  },
+  "controlColorMixerMoreControls": {
+    "message": "更多控件",
+    "description": "显示更多颜色控件的按钮。"
+  },
+  "controlColorMixerSliderH": {
+    "message": "色调",
+    "description": "颜色控件色调的标签。"
+  },
+  "controlColorMixerSliderS": {
+    "message": "饱和度",
+    "description": "颜色控件饱和度的标签。"
+  },
+  "controlColorMixerSliderL": {
+    "message": "亮度",
+    "description": "颜色控件亮度的标签。"
+  },
+  "controlColorMixerSliderR": {
+    "message": "红色",
+    "description": "颜色控件红色的标签。"
+  },
+  "controlColorMixerSliderG": {
+    "message": "绿色",
+    "description": "颜色控件绿色的标签。"
+  },
+  "controlColorMixerSliderB": {
+    "message": "蓝色",
+    "description": "颜色控件蓝色的标签。"
+  }
+}

@@ -4,7 +4,7 @@ import { browserDetect } from '../browserDetect';
 
 // import { default as bn } from '../../locale/bn/messages.json';
 // import { default as de } from '../../locale/de/messages.json';
-import { default as en_GB } from '../../locale/en_GB/messages.json';
+import { default as en_GB } from '../../locale/zh/messages.json';
 // import { default as en_US } from '../../locale/en_US/messages.json';
 // import { default as es } from '../../locale/es/messages.json';
 // import { default as fil } from '../../locale/fil/messages.json';
