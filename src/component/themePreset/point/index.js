@@ -11,7 +11,7 @@ export const point = {
       start: { hsl: { h: 206, s: 16, l: 40 }, rgb: { r: 86, g: 104, b: 118 } },
       end: { hsl: { h: 219, s: 28, l: 12 }, rgb: { r: 22, g: 28, b: 39 } }
     },
-    image: { url: 'https://github.com/zombieFox/nightTabAssets/blob/main/images/1629583136673.jpeg?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/images/1629583172118.jpeg?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/images/1629583176908.jpeg?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/images/1629583180203.jpeg?raw=true\n\nhttps://github.com/zombieFox/nightTabAssets/blob/main/images/1629583182863.jpeg?raw=true', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 25, vignette: { opacity: 55, start: 90, end: 10 } },
+    image: { url: 'https://github.com/zombieFox/iTabAssets/blob/main/images/1629583136673.jpeg?raw=true\n\nhttps://github.com/zombieFox/iTabAssets/blob/main/images/1629583172118.jpeg?raw=true\n\nhttps://github.com/zombieFox/iTabAssets/blob/main/images/1629583176908.jpeg?raw=true\n\nhttps://github.com/zombieFox/iTabAssets/blob/main/images/1629583180203.jpeg?raw=true\n\nhttps://github.com/zombieFox/iTabAssets/blob/main/images/1629583182863.jpeg?raw=true', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 25, vignette: { opacity: 55, start: 90, end: 10 } },
     video: { url: '', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } }
   },
   radius: 25,

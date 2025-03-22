@@ -12,7 +12,7 @@ export const infrared = {
       end: { hsl: { h: 219, s: 28, l: 12 }, rgb: { r: 22, g: 28, b: 39 } }
     },
     image: { url: '', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } },
-    video: { url: 'https://github.com/zombieFox/nightTabAssets/blob/main/videos/1626342620002.mp4?raw=true', blur: 0, grayscale: 100, scale: 100, accent: 50, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } }
+    video: { url: 'https://github.com/zombieFox/iTabAssets/blob/main/videos/1626342620002.mp4?raw=true', blur: 0, grayscale: 100, scale: 100, accent: 50, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } }
   },
   radius: 25,
   shadow: 75,

@@ -785,14 +785,14 @@ showcase.area.assemble = () => {
         }),
       ]
     }),
-    new Link({ text: 'nightTab', href: 'https://github.com/zombieFox/nightTab', openNew: true }).wrap(),
+    new Link({ text: 'iTab', href: 'https://github.com/zombieFox/iTab', openNew: true }).wrap(),
     form.wrap({
       children: [
-        node('p:A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with nightTab.'),
+        node('p:A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with iTab.'),
       ]
     }),
     new Control_helperText({
-      text: ['A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with nightTab.']
+      text: ['A neutral new tab page accented with a chosen colour. Customise the layout, style, background and bookmarks with iTab.']
     }).wrap(),
     form.wrap({
       children: [

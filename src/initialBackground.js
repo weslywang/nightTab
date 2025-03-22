@@ -1,9 +1,9 @@
 // inital check for systems which do not have light or dark mode
-if (localStorage.getItem('nightTabStyle')) {
+if (localStorage.getItem('iTabStyle')) {
   const style = document.createElement('style');
   style.type = 'text/css';
   style.media = 'screen';
-  switch (localStorage.getItem('nightTabStyle')) {
+  switch (localStorage.getItem('iTabStyle')) {
     case 'light':
       style.innerHTML = 'html, body {background-color: rgb(255, 255, 255);}';
       break;

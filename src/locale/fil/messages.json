@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "nightTab",
+    "message": "iTab",
     "description": "The name of the extension, displayed in the web store."
   },
   "appShortName": {
-    "message": "nightTab",
+    "message": "iTab",
     "description": "The name of the extension, displayed in the web store."
   },
   "appDescription": {
-    "message": "I-customize ang kulay ng accent, layout, istilo, background at mga bookmark sa nightTab.",
+    "message": "I-customize ang kulay ng accent, layout, istilo, background at mga bookmark sa iTab.",
     "description": "The description of the extension, displayed in the web store."
   },
   "menuNavDebugLabel": {

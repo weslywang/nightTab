@@ -508,7 +508,7 @@ updateLegacy.get = () => {
       return data;
     },
     '3.18.0': function (data) {
-      data.nighttab = true;
+      data.iTab = true;
       return data;
     },
     '3.20.0': function (data) {

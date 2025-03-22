@@ -11,7 +11,7 @@ export const marker = {
       start: { hsl: { h: 206, s: 16, l: 40 }, rgb: { r: 86, g: 104, b: 118 } },
       end: { hsl: { h: 219, s: 28, l: 12 }, rgb: { r: 22, g: 28, b: 39 } }
     },
-    image: { url: 'https://github.com/zombieFox/nightTabAssets/blob/main/images/1626365108115.jpeg?raw=true', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 25, vignette: { opacity: 0, start: 90, end: 70 } },
+    image: { url: 'https://github.com/zombieFox/iTabAssets/blob/main/images/1626365108115.jpeg?raw=true', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 25, vignette: { opacity: 0, start: 90, end: 70 } },
     video: { url: '', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } }
   },
   radius: 30,

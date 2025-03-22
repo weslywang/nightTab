@@ -12,7 +12,7 @@ export const aerial = {
       end: { hsl: { h: 219, s: 28, l: 12 }, rgb: { r: 22, g: 28, b: 39 } }
     },
     image: { url: '', blur: 0, grayscale: 0, scale: 100, accent: 10, opacity: 60, vignette: { opacity: 0, start: 90, end: 70 } },
-    video: { url: 'https://github.com/zombieFox/nightTabAssets/blob/main/videos/1626342605376.mp4?raw=true', blur: 0, grayscale: 0, scale: 100, accent: 20, opacity: 80, vignette: { opacity: 70, start: 90, end: 25 } }
+    video: { url: 'https://github.com/zombieFox/iTabAssets/blob/main/videos/1626342605376.mp4?raw=true', blur: 0, grayscale: 0, scale: 100, accent: 20, opacity: 80, vignette: { opacity: 70, start: 90, end: 25 } }
   },
   radius: 25,
   shadow: 50,

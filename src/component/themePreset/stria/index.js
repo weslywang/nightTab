@@ -11,7 +11,7 @@ export const stria = {
       start: { hsl: { h: 206, s: 16, l: 40 }, rgb: { r: 86, g: 104, b: 118 } },
       end: { hsl: { h: 219, s: 28, l: 12 }, rgb: { r: 22, g: 28, b: 39 } }
     },
-    image: { url: 'https://github.com/zombieFox/nightTabAssets/blob/main/images/1626366147967.jpeg?raw=true', blur: 0, grayscale: 52, scale: 100, accent: 0, opacity: 40, vignette: { opacity: 25, start: 90, end: 20 } },
+    image: { url: 'https://github.com/zombieFox/iTabAssets/blob/main/images/1626366147967.jpeg?raw=true', blur: 0, grayscale: 52, scale: 100, accent: 0, opacity: 40, vignette: { opacity: 25, start: 90, end: 20 } },
     video: { url: '', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } }
   },
   radius: 40,

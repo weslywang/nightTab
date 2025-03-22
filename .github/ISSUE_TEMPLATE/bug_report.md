@@ -7,15 +7,15 @@ assignees: ''
 
 ---
 
-# Have you checked the [nightTab Wiki for support?](https://github.com/zombieFox/nightTab/wiki)
+# Have you checked the [iTab Wiki for support?](https://github.com/zombieFox/iTab/wiki)
 
 **Please check before posting a question or issue.**
 
 Some frequently asked questions include:
-- [Browser support](https://github.com/zombieFox/nightTab/wiki/Browser-support)
-- [Protected URLs](https://github.com/zombieFox/nightTab/wiki/Protected-URLs)
-- [Resetting when opening the browser](https://github.com/zombieFox/nightTab/wiki/Resetting-when-opening-the-browser)
-- [Setting nightTab as your Firefox homepage](https://github.com/zombieFox/nightTab/wiki/Setting-nightTab-as-your-Firefox-homepage)
+- [Browser support](https://github.com/zombieFox/iTab/wiki/Browser-support)
+- [Protected URLs](https://github.com/zombieFox/iTab/wiki/Protected-URLs)
+- [Resetting when opening the browser](https://github.com/zombieFox/iTab/wiki/Resetting-when-opening-the-browser)
+- [Setting iTab as your Firefox homepage](https://github.com/zombieFox/iTab/wiki/Setting-iTab-as-your-Firefox-homepage)
 
 ---
 
@@ -41,7 +41,7 @@ If applicable, add screenshots to help explain your problem.
  - OS: [e.g. iOS]
  - Browser [e.g. chrome, safari]
  - Version [e.g. 22]
- - nightTab version [e.g. 6.0.0]
+ - iTab version [e.g. 6.0.0]
 
 **Additional context**
 Add any other context about the problem here.

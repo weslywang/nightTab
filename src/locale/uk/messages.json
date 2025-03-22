@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "nightTab",
+    "message": "iTab",
     "description": "The name of the extension, displayed in the web store."
   },
   "appShortName": {
-    "message": "nightTab",
+    "message": "iTab",
     "description": "The name of the extension, displayed in the web store."
   },
   "appDescription": {
-    "message": "Нейтральна сторінка нової вкладки з акцентом вибраного кольору. Налаштуйте макет, стиль, фон і закладки в nightTab.",
+    "message": "Нейтральна сторінка нової вкладки з акцентом вибраного кольору. Налаштуйте макет, стиль, фон і закладки в iTab.",
     "description": "The description of the extension, displayed in the web store."
   },
   "menuNavDebugLabel": {

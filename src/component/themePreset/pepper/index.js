@@ -11,7 +11,7 @@ export const pepper = {
       start: { hsl: { h: 358, s: 100, l: 15 }, rgb: { r: 77, g: 0, b: 3 } },
       end: { hsl: { h: 9, s: 99, l: 40 }, rgb: { r: 203, g: 31, b: 1 } }
     },
-    image: { url: 'https://github.com/zombieFox/nightTabAssets/blob/main/images/1628355202943.jpeg?raw=true', blur: 0, grayscale: 100, scale: 100, accent: 0, opacity: 15, vignette: { opacity: 25, start: 90, end: 35 } },
+    image: { url: 'https://github.com/zombieFox/iTabAssets/blob/main/images/1628355202943.jpeg?raw=true', blur: 0, grayscale: 100, scale: 100, accent: 0, opacity: 15, vignette: { opacity: 25, start: 90, end: 35 } },
     video: { url: '', blur: 0, grayscale: 0, scale: 100, accent: 0, opacity: 100, vignette: { opacity: 0, start: 90, end: 70 } }
   },
   radius: 60,

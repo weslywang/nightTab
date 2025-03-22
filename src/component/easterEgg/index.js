@@ -36,7 +36,7 @@ easterEgg.toaster.render = () => {
 
   newBookmarkData.link.background.show = true;
 
-  newBookmarkData.link.background.image.url = 'https://github.com/zombieFox/nightTabAssets/blob/main/images/1628494879270.gif?raw=true';
+  newBookmarkData.link.background.image.url = 'https://github.com/zombieFox/iTabAssets/blob/main/images/1628494879270.gif?raw=true';
 
   newBookmarkData.link.display.name.show = false;
 

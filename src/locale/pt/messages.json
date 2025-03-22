@@ -1,14 +1,14 @@
 {
   "appName": {
-    "message": "nightTab",
+    "message": "iTab",
     "description": "The name of the extension, displayed in the web store."
   },
   "appShortName": {
-    "message": "nightTab",
+    "message": "iTab",
     "description": "The name of the extension, displayed in the web store."
   },
   "appDescription": {
-    "message": "Personalize a cor de destaque, layout, estilo, plano de fundo e marcadores no nightTab.",
+    "message": "Personalize a cor de destaque, layout, estilo, plano de fundo e marcadores no iTab.",
     "description": "The description of the extension, displayed in the web store."
   },
   "menuNavDebugLabel": {
