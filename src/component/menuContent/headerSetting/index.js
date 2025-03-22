@@ -28,6 +28,7 @@ const headerSetting = {};
 
 headerSetting.control = {
   alignment: {},
+  recentbookmarks:{},
   greeting: {},
   transitional: {},
   clock: {},
@@ -376,6 +377,8 @@ headerSetting.disable = () => {
 
 };
 
+
+
 headerSetting.edge = {
   alignment: {},
   greeting: {},
@@ -428,6 +431,27 @@ headerSetting.alignment = (parent) => {
     ])
   );
 
+};
+
+// 在适当的位置添加控制选项
+headerSetting.recentbookmarks = (parent) => {
+  headerSetting.control.recentbookmarks.show = new Control_checkbox({
+    object: state.get.current(),
+    path: 'header.recentbookmarks.show',
+    id: 'header-recentbookmarks-show',
+    labelText: message.get('menuContentHeaderGreetingNewLineLabel1'),
+    action: () => {
+      header.item.clear();
+      header.item.render();
+      data.save();
+    }
+  });
+
+  parent.appendChild(
+    node('div', [
+      headerSetting.control.recentbookmarks.show.wrap(),
+    ])
+  );
 };
 
 headerSetting.greeting = (parent) => {
@@ -1839,6 +1863,8 @@ headerSetting.search = (parent) => {
     }]
   });
 
+  
+
   parent.appendChild(
     node('div', [
       headerSetting.control.search.show.wrap(),
@@ -1855,5 +1881,6 @@ headerSetting.search = (parent) => {
   );
 
 };
+
 
 export { headerSetting };

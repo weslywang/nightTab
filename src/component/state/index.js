@@ -56,7 +56,11 @@ state.default = {
       newTab: false
     },
     order: [],
-    edit: false
+    edit: false,
+    recentBookmarks: {
+      show: true,
+      items: []
+    }
   },
   bookmark: {
     size: 100,

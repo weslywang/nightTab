@@ -11,6 +11,22 @@
     "message": "一款中性的新标签页，用您选择的颜色加以点缀。在 iTab 中自定义布局、样式、背景和书签。",
     "description": "扩展程序的描述，显示在网上商店中。"
   },
+  "menuNavHeaderSubNavRecentbookmarks": {
+    "message": "最近书签",
+    "description": "最近访问的书签的标题。"
+  },
+  "headerRecentBookmarksTitle":{
+    "message": "最近书签",
+    "description": "最近访问的书签的标题。"
+  },
+  "menuContentHeaderRecentBookmarksShow": {
+    "message": "显示",
+    "description": "是否显示最近使用"
+  },
+  "headerRecentBookmarksEmpty": {
+    "message": "书签为空。",
+    "description": "最近访问的书签为空的提示。"
+  },
   "menuNavDebugLabel": {
     "message": "调试",
     "description": "设置菜单导航的标签。"
@@ -1106,6 +1122,14 @@
   "menuContentHeaderGreetingSize": {
     "message": "尺寸",
     "description": "页眉问候语尺寸的范围。"
+  },
+  "menuContentHeaderGreetingNewLineLabel1": {
+    "message": "显示最近使用",
+    "description": "显示最近使用的相关标签。"
+  },
+  "menuContentHeaderGreetingNewLineDescription1": {
+    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "description": "强制页眉问候语另起一行的描述。"
   },
   "menuContentHeaderGreetingNewLineLabel": {
     "message": "另起一行",

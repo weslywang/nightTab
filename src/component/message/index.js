@@ -84,8 +84,16 @@ message.get = (stringId) => {
       string = chrome.i18n.getMessage(stringId);
 
     } else {
+      let tmp = "";
+      try {
+        tmp = stringId;
+        string = message.language.pack.en_GB[stringId].message;
 
-      string = message.language.pack.en_GB[stringId].message;
+      } catch (error) {
+        console.log(error);
+        console.log(tmp);
+      }
+      
 
     }
 
