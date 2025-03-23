@@ -1,14 +1,17 @@
 .recent-bookmarks {
   display: flex;
   flex-direction: column;
-  gap: 0.5em;
+  gap: 0.75em;
   width: 100%;
+  margin-top: 0.5em;
 }
 
 .recent-bookmarks-title {
-  font-size: 0.9em;
+  font-size: 0.75em;
   color: hsl(var(--theme-primary-text-010));
   opacity: 0.7;
+  font-weight: 500;
+  margin-bottom: -0.25em;
 }
 
 .recent-bookmarks-list {
@@ -16,49 +19,93 @@
   flex-direction: row;
   flex-wrap: wrap;
   gap: 0.5em;
+  width: 100%;
 }
 
 .recent-bookmarks-item {
   display: flex;
   align-items: center;
-  gap: 0.5em;
-  padding: 0.25em 0.5em;
+  gap: 0.4em;
+  padding: 0.35em 0.6em;
   border-radius: calc(var(--theme-radius) * 0.01em);
-  background-color: hsla(var(--theme-primary-020), 0.3);
+  background-color: hsla(var(--theme-primary-020), 0.25);
   color: hsl(var(--theme-primary-text-010));
   text-decoration: none;
-  transition: background-color var(--layout-transition-extra-fast);
+  transition: all var(--layout-transition-extra-fast);
+  border: 1px solid hsla(var(--theme-primary-030), 0.2);
+  max-width: max-content;
+  backdrop-filter: blur(5px);
 }
 
 .recent-bookmarks-item:hover {
-  background-color: hsla(var(--theme-primary-030), 0.5);
+  background-color: hsla(var(--theme-primary-030), 0.4);
+  transform: translateY(-1px);
+  box-shadow: 0 2px 5px hsla(var(--theme-primary-010), 0.1);
+}
+
+.recent-bookmarks-item:active {
+  transform: translateY(0);
+  box-shadow: none;
 }
 
 .recent-bookmarks-item-visual {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 1.5em;
-  height: 1.5em;
-  font-size: 0.9em;
+  width: 1.2em;
+  height: 1.2em;
+  font-size: 0.85em;
   color: rgb(var(--theme-accent));
+  flex-shrink: 0;
 }
 
 .recent-bookmarks-item-name {
-  font-size: 0.9em;
-  max-width: 10em;
+  font-size: 0.85em;
+  max-width: 8em;
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
+  line-height: 1.2;
 }
 
 .recent-bookmarks-empty {
-  font-size: 0.9em;
+  font-size: 0.85em;
   color: hsl(var(--theme-primary-text-010));
   opacity: 0.5;
   font-style: italic;
+  padding: 0.2em 0;
 }
 
+/* 添加清除按钮样式 */
+.recent-bookmarks-clear {
+  align-self: flex-end;
+  font-size: 0.75em;
+  color: hsl(var(--theme-primary-text-010));
+  opacity: 0.6;
+  text-decoration: none;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0.3em 0.6em;
+  border-radius: calc(var(--theme-radius) * 0.005em);
+  transition: all var(--layout-transition-extra-fast);
+  margin-top: -0.4em;
+}
+
+.recent-bookmarks-clear:hover {
+  opacity: 0.9;
+  background-color: hsla(var(--theme-primary-020), 0.2);
+}
+
+/* 添加时间戳小标签样式 */
+.recent-bookmarks-item-time {
+  font-size: 0.65em;
+  opacity: 0.6;
+  margin-left: 0.4em;
+  flex-shrink: 0;
+}
+
+/* 响应式对齐 */
 .is-header-item-justify-left .recent-bookmarks {
   align-items: flex-start;
 }
@@ -69,4 +116,17 @@
 
 .is-header-item-justify-right .recent-bookmarks {
   align-items: flex-end;
+}
+
+/* 添加标签数量限制指示器 */
+.recent-bookmarks-count {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.35em 0.6em;
+  border-radius: calc(var(--theme-radius) * 0.01em);
+  background-color: hsla(var(--theme-primary-020), 0.15);
+  color: hsl(var(--theme-primary-text-010));
+  font-size: 0.85em;
+  opacity: 0.7;
 } 

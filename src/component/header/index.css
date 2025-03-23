@@ -62,14 +62,17 @@
 }
 
 .is-header-item-justify-left .header {
+  align-items:flex-start;
   justify-content: flex-start;
 }
 
 .is-header-item-justify-center .header {
+  align-items:flex-start;
   justify-content: center;
 }
 
 .is-header-item-justify-right .header {
+  align-items:flex-start;
   justify-content: flex-end;
 }
 

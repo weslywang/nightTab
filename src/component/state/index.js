@@ -55,12 +55,12 @@ state.default = {
       newLine: false,
       newTab: false
     },
-    order: [],
-    edit: false,
-    recentBookmarks: {
+    recentbookmarks: {
       show: true,
-      items: []
-    }
+      items: [{href: 'https://www.google.com/', title: 'Google'},{href: 'https://www.google.com/', title: 'Google'}]
+    },
+    order: [],
+    edit: false
   },
   bookmark: {
     size: 100,

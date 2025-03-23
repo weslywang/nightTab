@@ -11,6 +11,10 @@
     "message": "一款中性的新标签页，用您选择的颜色加以点缀。在 iTab 中自定义布局、样式、背景和书签。",
     "description": "扩展程序的描述，显示在网上商店中。"
   },
+  "headerRecentBookmarksClear":{
+    "message": "清除最近书签",
+    "description": "最近访问的书签的标题。"
+  },
   "menuNavHeaderSubNavRecentbookmarks": {
     "message": "最近书签",
     "description": "最近访问的书签的标题。"

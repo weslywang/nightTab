@@ -14,20 +14,31 @@ export const RecentBookmarks = function() {
   this.element = {
     container: node('div|class:recent-bookmarks'),
     title: node('div|class:recent-bookmarks-title'),
-    list: node('div|class:recent-bookmarks-list')
+    list: node('div|class:recent-bookmarks-list'),
+    clear: node('button|class:recent-bookmarks-clear')
   };
 
   this.recent = [];
-  this.maxItems = 5; // 默认显示5个最近使用的书签
+  this.maxItems = 8; // 增加默认显示的标签数量
+  this.showTimestamp = false; // 是否显示时间戳
 
   this.init = () => {
     // 从state中获取已保存的最近书签
-    if (state.get.current().header.recentBookmarks && 
-        state.get.current().header.recentBookmarks.items) {
-      this.recent = state.get.current().header.recentBookmarks.items;
+    console.log(state.get.current().header.recentbookmarks);
+    if (state.get.current().header.recentbookmarks && 
+        state.get.current().header.recentbookmarks.items) {
+      this.recent = state.get.current().header.recentbookmarks.items;
+      console.log(this.recent);
     }
 
     this.element.title.textContent = message.get('headerRecentBookmarksTitle');
+    this.element.clear.textContent = message.get('headerRecentBookmarksClear');
+    
+    // 添加清除按钮点击事件
+    this.element.clear.addEventListener('click', () => {
+      this.clear();
+    });
+    
     this.render();
   };
 
@@ -38,8 +49,8 @@ export const RecentBookmarks = function() {
     // 渲染最近使用的书签
     this.recent.forEach(item => {
       const bookmarkItem = node('a|class:recent-bookmarks-item');
-      bookmarkItem.href = item.url;
-      bookmarkItem.title = item.name;
+      bookmarkItem.href = item.href;
+      bookmarkItem.title = item.title;
       
       // 创建图标或字母显示
       const visual = node('span|class:recent-bookmarks-item-visual');
@@ -53,15 +64,25 @@ export const RecentBookmarks = function() {
       
       // 创建名称显示
       const name = node('span|class:recent-bookmarks-item-name');
-      name.textContent = item.name;
+      name.textContent = item.title;
       
-      bookmarkItem.appendChild(visual);
+      // bookmarkItem.appendChild(visual);
       bookmarkItem.appendChild(name);
+      
+      // 可选：添加时间戳显示
+      if (this.showTimestamp && item.timestamp) {
+        const timeAgo = this.getTimeAgo(item.timestamp);
+        const timeElement = node('span|class:recent-bookmarks-item-time');
+        timeElement.textContent = timeAgo;
+        bookmarkItem.appendChild(timeElement);
+      }
       
       // 添加点击事件
       bookmarkItem.addEventListener('click', (e) => {
         e.preventDefault();
-        window.open(item.url, '_blank');
+        // 更新时间戳
+        this.updateTimestamp(item.href);
+        window.open(item.href, '_blank');
       });
       
       this.element.list.appendChild(bookmarkItem);
@@ -72,6 +93,50 @@ export const RecentBookmarks = function() {
       const emptyMessage = node('div|class:recent-bookmarks-empty');
       emptyMessage.textContent = message.get('headerRecentBookmarksEmpty');
       this.element.list.appendChild(emptyMessage);
+      
+      // 隐藏清除按钮
+      this.element.clear.style.display = 'none';
+    } else {
+      // 显示清除按钮
+      this.element.clear.style.display = 'none';
+    }
+  };
+
+  // 添加获取相对时间的辅助方法
+  this.getTimeAgo = (timestamp) => {
+    const now = Date.now();
+    const diff = now - timestamp;
+    
+    // 转换为分钟
+    const minutes = Math.floor(diff / 60000);
+    
+    if (minutes < 1) return message.get('headerRecentBookmarksJustNow');
+    if (minutes < 60) return message.get('headerRecentBookmarksMinutesAgo').replace('{minutes}', minutes);
+    
+    // 转换为小时
+    const hours = Math.floor(minutes / 60);
+    if (hours < 24) return message.get('headerRecentBookmarksHoursAgo').replace('{hours}', hours);
+    
+    // 转换为天
+    const days = Math.floor(hours / 24);
+    if (days < 7) return message.get('headerRecentBookmarksDaysAgo').replace('{days}', days);
+    
+    // 超过一周就显示日期
+    const date = new Date(timestamp);
+    return date.toLocaleDateString();
+  };
+
+  // 更新时间戳
+  this.updateTimestamp = (url) => {
+    const index = this.recent.findIndex(item => item.url === url);
+    if (index !== -1) {
+      this.recent[index].timestamp = Date.now();
+      
+      // 更新state
+      if (state.get.current().header.recentBookmarks) {
+        state.get.current().header.recentBookmarks.items = this.recent;
+        data.save();
+      }
     }
   };
 
@@ -133,8 +198,9 @@ export const RecentBookmarks = function() {
   };
 
   this.assemble = () => {
-    this.element.container.appendChild(this.element.title);
+    // this.element.container.appendChild(this.element.title);
     this.element.container.appendChild(this.element.list);
+    this.element.container.appendChild(this.element.clear);
     this.init();
   };
 
@@ -143,4 +209,5 @@ export const RecentBookmarks = function() {
   };
 
   this.assemble();
+  this.init();
 }; 

@@ -3,7 +3,7 @@ import { state } from '../state';
 import { bookmark } from '../bookmark';
 import { groupAndBookmark } from '../groupAndBookmark';
 import { searchEnginePreset } from '../searchEnginePreset';
-
+import { RecentBookmarks } from '../recentBookmarks';
 
 import { Button } from '../button';
 import { Control_text } from '../control/text';
@@ -14,12 +14,15 @@ import { isValidString } from '../../utility/isValidString';
 
 import './index.css';
 
+
 export const Search = function () {
 
   this.element = {
     search: node('div|class:search'),
     form: node('form|class:search-form,action,method:get'),
     submit: node('input|type:submit,value:Search,class:is-hidden'),
+    recent: node('div|class:search-recent'),
+    recentlables: new RecentBookmarks(),
     input: new Control_text({
       object: state.get.current(),
       path: 'header.search.string',
@@ -209,7 +212,10 @@ export const Search = function () {
 
     this.element.form.appendChild(this.element.clear.button);
 
+    this.element.recent.appendChild(this.element.recentlables.element.container);
+
     this.element.search.appendChild(this.element.form);
+    this.element.search.appendChild(this.element.recent);
 
   };
 

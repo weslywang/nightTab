@@ -8,6 +8,8 @@ import { Date } from '../date';
 import { Greeting } from '../greeting';
 import { Transitional } from '../transitional';
 import { Search } from '../search';
+import { RecentBookmarks } from '../recentBookmarks';
+
 import { HeaderItem } from '../headerItem';
 
 import { node } from '../../utility/node';
@@ -30,6 +32,7 @@ header.element = {
   clock: false,
   date: false,
   search: false,
+  // recentbookmarks: false,
   border: {
     top: node('div|class:header-border-top'),
     bottom: node('div|class:header-border-bottom')
@@ -48,7 +51,7 @@ header.item.mod = {
   },
   order: () => {
 
-    const headerItems = ['greeting', 'transitional', 'clock', 'date', 'search', 'toolbar'];
+    const headerItems = ['greeting', 'transitional', 'clock', 'date', 'search','toolbar'];
 
     headerItems.reverse().forEach((item) => {
 
@@ -228,7 +231,20 @@ header.item.mod = {
           }
 
           break;
-
+        case 'recent':
+            if (state.get.current().header.recentbookmarks.show) {
+              if (!state.get.current().header.order.includes(item)) {
+                let position = 0;
+                // 确定插入位置的逻辑
+                state.get.current().header.order.splice(position, 0, item);
+              }
+            } else {
+              if (state.get.current().header.order.includes(item)) {
+                state.get.current().header.order.splice(state.get.current().header.order.indexOf(item), 1);
+              }
+            }
+        
+            break;
         case 'toolbar':
 
           switch (state.get.current().toolbar.location) {
@@ -275,6 +291,7 @@ header.item.render = () => {
   header.element.transitional = new Transitional();
 
   header.element.search = new Search();
+  header.element.recentbookmarks = new RecentBookmarks();
 
   order.forEach((item) => {
 
@@ -377,6 +394,19 @@ header.item.render = () => {
         }
 
         break;
+      case 'recent':
+          if (state.get.current().header.recentbookmarks.show) {
+            // console.log('recent header.recentbookmarks.show');
+            // const headerItem = new HeaderItem({
+            //   name: item,
+            //   child: header.element.recentbookmarks.recentBookmarks()
+            // });
+  
+            // header.item.current.push(headerItem);
+  
+            // header.element.header.appendChild(headerItem.item());
+          }
+          break;
 
       case 'toolbar':
 
