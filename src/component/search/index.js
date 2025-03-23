@@ -159,11 +159,11 @@ export const Search = function () {
 
           item.searchMatch = false;
 
-          let matchUrl = isValidString(item.url) && item.url.toLowerCase().includes(searchString);
+          const matchUrl = isValidString(item.url) && item.url.toLowerCase().includes(searchString);
+          const matchLetter = isValidString(item.display.visual.letter.text) && item.display.visual.letter.text.toLowerCase().includes(searchString);
+          const matchName = isValidString(item.display.name.text) && trimString(item.display.name.text).toLowerCase().includes(searchString);
 
-          let matchName = isValidString(item.display.name.text) && trimString(item.display.name.text).toLowerCase().includes(searchString);
-
-          if (matchUrl || matchName) {
+          if (matchUrl || matchName || matchLetter) {
             item.searchMatch = true;
           }
 
