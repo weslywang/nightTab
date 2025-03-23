@@ -24,11 +24,9 @@ export const RecentBookmarks = function() {
 
   this.init = () => {
     // 从state中获取已保存的最近书签
-    console.log(state.get.current().header.recentbookmarks);
     if (state.get.current().header.recentbookmarks && 
         state.get.current().header.recentbookmarks.items) {
       this.recent = state.get.current().header.recentbookmarks.items;
-      console.log(this.recent);
     }
 
     this.element.title.textContent = message.get('headerRecentBookmarksTitle');
@@ -49,22 +47,22 @@ export const RecentBookmarks = function() {
     // 渲染最近使用的书签
     this.recent.forEach(item => {
       const bookmarkItem = node('a|class:recent-bookmarks-item');
-      bookmarkItem.href = item.href;
-      bookmarkItem.title = item.title;
+      bookmarkItem.href = item.link.url;
+      bookmarkItem.title = item.link.display.visual.letter.text;
       
-      // 创建图标或字母显示
-      const visual = node('span|class:recent-bookmarks-item-visual');
+      // // 创建图标或字母显示
+      // const visual = node('span|class:recent-bookmarks-item-visual');
       
-      if (item.type === 'icon' && item.icon) {
-        const iconElement = node(`i|class:${item.icon.prefix} fa-${item.icon.name}`);
-        visual.appendChild(iconElement);
-      } else if (item.type === 'letter' && item.letter) {
-        visual.textContent = item.letter;
-      }
+      // if (item.type === 'icon' && item.icon) {
+      //   const iconElement = node(`i|class:${item.icon.prefix} fa-${item.icon.name}`);
+      //   visual.appendChild(iconElement);
+      // } else if (item.type === 'letter' && item.letter) {
+      //   visual.textContent = item.letter;
+      // }
       
       // 创建名称显示
       const name = node('span|class:recent-bookmarks-item-name');
-      name.textContent = item.title;
+      name.textContent = item.link.display.visual.letter.text;
       
       // bookmarkItem.appendChild(visual);
       bookmarkItem.appendChild(name);
@@ -128,39 +126,22 @@ export const RecentBookmarks = function() {
 
   // 更新时间戳
   this.updateTimestamp = (url) => {
-    const index = this.recent.findIndex(item => item.url === url);
+    const index = this.recent.findIndex(item => item.href === url);
     if (index !== -1) {
       this.recent[index].timestamp = Date.now();
       
       // 更新state
-      if (state.get.current().header.recentBookmarks) {
-        state.get.current().header.recentBookmarks.items = this.recent;
+      if (state.get.current().header.recentbookmarks) {
+        state.get.current().header.recentbookmarks.items = this.recent;
         data.save();
       }
     }
   };
 
+  // 修改 addBookmark 方法，使其处理已经格式化好的数据
   this.addBookmark = (bookmarkData) => {
-    // 创建一个简化版的书签对象
-    const newRecentItem = {
-      url: bookmarkData.url,
-      name: bookmarkData.display.name.text,
-      type: bookmarkData.display.visual.type,
-      timestamp: Date.now()
-    };
-    
-    // 根据类型添加额外信息
-    if (newRecentItem.type === 'icon') {
-      newRecentItem.icon = {
-        name: bookmarkData.display.visual.icon.name,
-        prefix: bookmarkData.display.visual.icon.prefix
-      };
-    } else if (newRecentItem.type === 'letter') {
-      newRecentItem.letter = bookmarkData.display.visual.letter.text;
-    }
-    
     // 检查是否已存在相同URL的书签
-    const existingIndex = this.recent.findIndex(item => item.url === newRecentItem.url);
+    const existingIndex = this.recent.findIndex(item => item.href === bookmarkData.href);
     
     // 如果存在，先移除它
     if (existingIndex !== -1) {
@@ -168,7 +149,7 @@ export const RecentBookmarks = function() {
     }
     
     // 添加到最前面
-    this.recent.unshift(newRecentItem);
+    this.recent.unshift(bookmarkData);
     
     // 限制数量
     if (this.recent.length > this.maxItems) {
@@ -176,10 +157,10 @@ export const RecentBookmarks = function() {
     }
     
     // 更新state
-    if (!state.get.current().header.recentBookmarks) {
-      state.get.current().header.recentBookmarks = {};
+    if (!state.get.current().header.recentbookmarks) {
+      state.get.current().header.recentbookmarks = {};
     }
-    state.get.current().header.recentBookmarks.items = this.recent;
+    state.get.current().header.recentbookmarks.items = this.recent;
     
     // 保存数据
     data.save();

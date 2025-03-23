@@ -18,7 +18,7 @@ import { complexNode } from '../../utility/complexNode';
 import { isValidString } from '../../utility/isValidString';
 import { trimString } from '../../utility/trimString';
 
-const BookmarkTile = function({
+export const BookmarkTile = function({
   bookmarkData = {},
   preview = false
 } = {}) {
@@ -435,6 +435,31 @@ const BookmarkTile = function({
 
   };
 
+  this.clickActive = (event) => {    
+    // 阻止默认行为
+    event.preventDefault();
+    
+    // 准备要记录的书签数据
+    const recentBookmarkData = this.data
+    
+    console.log('准备记录书签数据', recentBookmarkData);
+    
+    // 调用全局函数记录最近访问的书签
+    if (typeof window.recordRecentBookmark === 'function') {
+      console.log('调用 recordRecentBookmark 函数');
+      window.recordRecentBookmark(recentBookmarkData);
+    } else {
+      console.error('recordRecentBookmark 函数不存在');
+    }
+    
+    // 打开链接
+    if (state.get.current().bookmark.newTab) {
+      window.open(this.element.content.link.href, '_blank');
+    } else {
+      window.location = this.element.content.link.href;
+    }
+  };
+
   this.assemble = () => {
 
     if (bookmarkData.link.display.visual.show || bookmarkData.link.display.name.show) {
@@ -549,6 +574,18 @@ const BookmarkTile = function({
       this.control.disable();
     }
 
+    // 找到正确的元素来绑定点击事件
+    // 可能是 this.element.bookmark、this.element.content.link 或 this.link 等
+    
+    // 使用适当的元素引用
+    const clickTarget = this.element.content.link || this.element.bookmark;
+    
+    // 如果不是预览模式，则添加点击事件
+    if (!preview) {
+      console.log('绑定点击事件到书签元素');
+      this.element.content.link.addEventListener('click', this.clickActive);
+    }
+
   };
 
   this.tile = () => {
@@ -597,5 +634,3 @@ const BookmarkTile = function({
   this.style();
 
 };
-
-export { BookmarkTile };

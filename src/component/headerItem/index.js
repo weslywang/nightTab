@@ -5,9 +5,6 @@ import { Button } from '../button';
 import { node } from '../../utility/node';
 
 import './index.css';
-
-import { RecentBookmarks } from '../recentBookmarks';
-
 export const HeaderItem = function ({
   name = false,
   child = false
@@ -80,12 +77,4 @@ export const HeaderItem = function ({
     return this.element.item;
 
   };
-
-  switch (this.type) {
-    case 'recentBookmarks':
-      this.component = new RecentBookmarks();
-      this.element.item.appendChild(this.component.recentBookmarks());
-      break;
-  }
-
 };

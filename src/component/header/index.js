@@ -234,10 +234,17 @@ header.item.mod = {
         case 'recent':
             if (state.get.current().header.recentbookmarks.show) {
               if (!state.get.current().header.order.includes(item)) {
-                let position = 0;
-                // 确定插入位置的逻辑
+                const position = 0; // 总是放在第一位
                 state.get.current().header.order.splice(position, 0, item);
               }
+              
+              const headerItem = new HeaderItem({
+                name: item,
+                child: header.element.recentbookmarks.recentBookmarks()
+              });
+
+              header.item.current.push(headerItem);
+              header.element.header.appendChild(headerItem.item());
             } else {
               if (state.get.current().header.order.includes(item)) {
                 state.get.current().header.order.splice(state.get.current().header.order.indexOf(item), 1);
@@ -520,6 +527,9 @@ header.edit = {
   }
 };
 
+// 确保 RecentBookmarks 组件可以在全局访问
+let recentBookmarksInstance;
+
 header.init = () => {
   state.get.current().search = false;
   header.item.mod.order();
@@ -546,6 +556,27 @@ header.init = () => {
     'header.date.newLine',
     'header.search.newLine'
   ]);
+  
+  // 初始化 RecentBookmarks 实例
+  header.element.recentbookmarks = new RecentBookmarks();
+  recentBookmarksInstance = header.element.recentbookmarks;
+};
+
+// 提供全局访问方法
+window.addRecentBookmark = (bookmarkData) => {
+  if (recentBookmarksInstance) {
+    recentBookmarksInstance.addBookmark(bookmarkData);
+  }
+};
+
+// 使用这个方法替代之前的全局函数
+window.recordRecentBookmark = (bookmarkData) => {
+  if (window.addRecentBookmark) {
+    window.addRecentBookmark(bookmarkData);
+  } else {
+    // 回退到直接更新 state
+    bookmark.recordRecent(bookmarkData);
+  }
 };
 
 export { header };

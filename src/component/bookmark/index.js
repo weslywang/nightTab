@@ -570,4 +570,40 @@ bookmark.init = () => {
   bookmark.edit.render();
 };
 
+bookmark.recordRecent = (bookmarkData) => {
+  // 确保 recentbookmarks 存在于 state 中
+  if (!state.get.current().header.recentbookmarks) {
+    state.get.current().header.recentbookmarks = {
+      show: true,
+      items: []
+    };
+  }
+  
+  // 检查是否已存在相同URL的书签
+  const items = state.get.current().header.recentbookmarks.items || [];
+  const existingIndex = items.findIndex(item => item.link.url === bookmarkData.link.url);
+  
+  // 如果存在，先移除它
+  if (existingIndex !== -1) {
+    items.splice(existingIndex, 1);
+  }
+  
+  // 添加到最前面
+  items.unshift(bookmarkData);
+  
+  // 限制数量为8个
+  if (items.length > 8) {
+    items.splice(8);
+  }
+  
+  // 更新state
+  state.get.current().header.recentbookmarks.items = items;
+  
+  // 保存数据
+  data.save();
+};
+
+// 将全局记录函数暴露出去
+window.recordRecentBookmark = bookmark.recordRecent;
+
 export { bookmark };
