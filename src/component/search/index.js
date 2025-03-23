@@ -215,7 +215,7 @@ export const Search = function () {
     this.element.recent.appendChild(this.element.recentlables.element.container);
 
     this.element.search.appendChild(this.element.form);
-    if (state.get.current().header.recentbookmarks.show) {
+    if (state.get.current().header.recentbookmarks && state.get.current().header.recentbookmarks.show) {
       this.element.search.appendChild(this.element.recent);
     }else {
       

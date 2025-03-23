@@ -440,7 +440,7 @@ export const BookmarkTile = function({
     event.preventDefault();
     
     // 准备要记录的书签数据
-    const recentBookmarkData = this.data
+    const recentBookmarkData = this.data;
     
     console.log('准备记录书签数据', recentBookmarkData);
     
@@ -448,6 +448,11 @@ export const BookmarkTile = function({
     if (typeof window.recordRecentBookmark === 'function') {
       console.log('调用 recordRecentBookmark 函数');
       window.recordRecentBookmark(recentBookmarkData);
+      
+      // 直接调用刷新函数确保即时更新
+      if (typeof window.refreshRecentBookmarks === 'function') {
+        window.refreshRecentBookmarks();
+      }
     } else {
       console.error('recordRecentBookmark 函数不存在');
     }

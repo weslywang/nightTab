@@ -589,7 +589,9 @@ bookmark.recordRecent = (bookmarkData) => {
   }
   
   // 添加到最前面
-  items.unshift(bookmarkData);
+  const bookmarkDict = JSON.parse(JSON.stringify(bookmarkData));
+
+  items.unshift(bookmarkDict);
   
   // 限制数量为8个
   if (items.length > 8) {
@@ -601,6 +603,11 @@ bookmark.recordRecent = (bookmarkData) => {
   
   // 保存数据
   data.save();
+  
+  // 在保存数据后立即刷新显示
+  if (typeof window.refreshRecentBookmarks === 'function') {
+    window.refreshRecentBookmarks();
+  }
 };
 
 // 将全局记录函数暴露出去

@@ -47,6 +47,7 @@ export const RecentBookmarks = function() {
     // 渲染最近使用的书签
     this.recent.forEach(item => {
       const bookmarkItem = node('a|class:recent-bookmarks-item');
+      
       bookmarkItem.href = item.link.url;
       bookmarkItem.title = item.link.display.visual.letter.text;
       
@@ -79,8 +80,8 @@ export const RecentBookmarks = function() {
       bookmarkItem.addEventListener('click', (e) => {
         e.preventDefault();
         // 更新时间戳
-        this.updateTimestamp(item.href);
-        window.open(item.href, '_blank');
+        this.updateTimestamp(item.link.url);
+        window.open(item.link.url, '_blank');
       });
       
       this.element.list.appendChild(bookmarkItem);
@@ -90,7 +91,7 @@ export const RecentBookmarks = function() {
     if (this.recent.length === 0) {
       const emptyMessage = node('div|class:recent-bookmarks-empty');
       emptyMessage.textContent = message.get('headerRecentBookmarksEmpty');
-      this.element.list.appendChild(emptyMessage);
+      // this.element.list.appendChild(emptyMessage);
       
       // 隐藏清除按钮
       this.element.clear.style.display = 'none';
@@ -126,7 +127,7 @@ export const RecentBookmarks = function() {
 
   // 更新时间戳
   this.updateTimestamp = (url) => {
-    const index = this.recent.findIndex(item => item.href === url);
+    const index = this.recent.findIndex(item => item.link.url === url);
     if (index !== -1) {
       this.recent[index].timestamp = Date.now();
       
@@ -141,7 +142,7 @@ export const RecentBookmarks = function() {
   // 修改 addBookmark 方法，使其处理已经格式化好的数据
   this.addBookmark = (bookmarkData) => {
     // 检查是否已存在相同URL的书签
-    const existingIndex = this.recent.findIndex(item => item.href === bookmarkData.href);
+    const existingIndex = this.recent.findIndex(item => item.link.url === bookmarkData.href);
     
     // 如果存在，先移除它
     if (existingIndex !== -1) {
@@ -171,8 +172,8 @@ export const RecentBookmarks = function() {
 
   this.clear = () => {
     this.recent = [];
-    if (state.get.current().header.recentBookmarks) {
-      state.get.current().header.recentBookmarks.items = [];
+    if (state.get.current().header.recentbookmarks) {
+      state.get.current().header.recentbookmarks.items = [];
     }
     data.save();
     this.render();
@@ -181,7 +182,7 @@ export const RecentBookmarks = function() {
   this.assemble = () => {
     // this.element.container.appendChild(this.element.title);
     this.element.container.appendChild(this.element.list);
-    this.element.container.appendChild(this.element.clear);
+    // this.element.container.appendChild(this.element.clear);
     this.init();
   };
 

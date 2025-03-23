@@ -569,6 +569,19 @@ window.addRecentBookmark = (bookmarkData) => {
   }
 };
 
+// 添加刷新函数
+window.refreshRecentBookmarks = () => {
+  if (recentBookmarksInstance) {
+    // 重新获取状态中的数据
+    recentBookmarksInstance.recent = state.get.current().header.recentbookmarks.items || [];
+    // 重新渲染组件
+    recentBookmarksInstance.assemble();
+    console.log('最近使用的书签已刷新', recentBookmarksInstance.recent);
+  } else {
+    console.warn('无法刷新最近书签组件，实例不存在');
+  }
+};
+
 // 使用这个方法替代之前的全局函数
 window.recordRecentBookmark = (bookmarkData) => {
   if (window.addRecentBookmark) {

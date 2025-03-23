@@ -96,7 +96,7 @@
     "description": "设置菜单导航的标签。"
   },
   "menuNavThemeSubNavHeader": {
-    "message": "页眉",
+    "message": "头部",
     "description": "设置菜单导航的标签。"
   },
   "menuNavThemeSubNavBookmark": {
@@ -132,7 +132,7 @@
     "description": "设置菜单导航的标签。"
   },
   "menuNavHeaderLabel": {
-    "message": "页眉",
+    "message": "头部",
     "description": "设置菜单导航的标签。"
   },
   "menuNavHeaderSubNavAlignment": {
@@ -816,36 +816,36 @@
     "description": "布局背景模糊的描述。"
   },
   "menuContentThemeLayoutDivider": {
-    "message": "页眉和书签区域之间的分隔线",
+    "message": "头部和书签区域之间的分隔线",
     "description": "布局分隔线的标签。"
   },
   "menuContentThemeHeaderColorLabel": {
-    "message": "页眉背景颜色",
-    "description": "页眉区域颜色的标签。"
+    "message": "头部背景颜色",
+    "description": "头部区域颜色的标签。"
   },
   "menuContentThemeHeaderColorByTransparentLabel": {
     "message": "透明",
-    "description": "透明页眉区域背景的单选按钮。"
+    "description": "透明头部区域背景的单选按钮。"
   },
   "menuContentThemeHeaderColorByTransparentDescription": {
-    "message": "页眉区域后方没有背景颜色。",
-    "description": "透明页眉区域背景的描述。"
+    "message": "头部区域后方没有背景颜色。",
+    "description": "透明头部区域背景的描述。"
   },
   "menuContentThemeHeaderColorByCustomLabel": {
     "message": "自定义颜色",
-    "description": "自定义颜色页眉区域背景的单选按钮。"
+    "description": "自定义颜色头部区域背景的单选按钮。"
   },
   "menuContentThemeHeaderColorByCustomDescription": {
-    "message": "在页眉区域后方使用自定义颜色。",
-    "description": "自定义颜色页眉区域背景的描述。"
+    "message": "在头部区域后方使用自定义颜色。",
+    "description": "自定义颜色头部区域背景的描述。"
   },
   "menuContentThemeHeaderColorColor": {
-    "message": "页眉背景颜色",
-    "description": "页眉区域背景颜色的标签。"
+    "message": "头部背景颜色",
+    "description": "头部区域背景颜色的标签。"
   },
   "menuContentThemeHeaderColorOpacity": {
     "message": "背景不透明度",
-    "description": "页眉区域背景不透明度的范围。"
+    "description": "头部区域背景不透明度的范围。"
   },
   "menuContentThemeBookmarkColorLabel": {
     "message": "书签背景颜色",
@@ -908,32 +908,32 @@
     "description": "布局区域宽度的范围。"
   },
   "menuContentLayoutAreaHeaderWidth": {
-    "message": "页眉区域宽度",
-    "description": "页眉区域宽度的标签。"
+    "message": "头部区域宽度",
+    "description": "头部区域宽度的标签。"
   },
   "menuContentLayoutAreaHeaderJustifyLabel": {
-    "message": "页眉区域对齐方式",
-    "description": "页眉区域对齐方式的标签。"
+    "message": "头部区域对齐方式",
+    "description": "头部区域对齐方式的标签。"
   },
   "menuContentLayoutAreaHeaderJustifyLeft": {
     "message": "左对齐",
-    "description": "用于将页眉区域左对齐的单选按钮。"
+    "description": "用于将头部区域左对齐的单选按钮。"
   },
   "menuContentLayoutAreaHeaderJustifyCenter": {
     "message": "居中",
-    "description": "用于将页眉区域居中对齐的单选按钮。"
+    "description": "用于将头部区域居中对齐的单选按钮。"
   },
   "menuContentLayoutAreaHeaderJustifyRight": {
     "message": "右对齐",
-    "description": "用于将页眉区域右对齐的单选按钮。"
+    "description": "用于将头部区域右对齐的单选按钮。"
   },
   "menuContentLayoutAreaHeaderJustifyHelper1Para1": {
-    "message": "如果页眉区域是全宽，则效果可能不可见。",
-    "description": "页眉区域对齐方式的帮助文本。"
+    "message": "如果头部区域是全宽，则效果可能不可见。",
+    "description": "头部区域对齐方式的帮助文本。"
   },
   "menuContentLayoutAreaHeaderJustifyHelper2Para1": {
-    "message": "仅当布局方向为垂直且显示页眉项目时可用。",
-    "description": "页眉区域对齐方式的帮助文本。"
+    "message": "仅当布局方向为垂直且显示头部项目时可用。",
+    "description": "头部区域对齐方式的帮助文本。"
   },
   "menuContentLayoutAreaBookmarkWidth": {
     "message": "书签区域宽度",
@@ -960,15 +960,15 @@
     "description": "书签区域对齐方式的帮助文本。"
   },
   "menuContentLayoutAreaBookmarkJustifyHelper2Para1": {
-    "message": "仅当布局方向为垂直且显示页眉项目时可用。",
+    "message": "仅当布局方向为垂直且显示头部项目时可用。",
     "description": "书签区域对齐方式的帮助文本。"
   },
   "menuContentLayoutPadding": {
-    "message": "页眉和书签区域周围的空间",
+    "message": "头部和书签区域周围的空间",
     "description": "布局内边距的范围。"
   },
   "menuContentLayoutGutter": {
-    "message": "页眉和书签项目之间的空间",
+    "message": "头部和书签项目之间的空间",
     "description": "布局页间距的范围。"
   },
   "menuContentLayoutAlignmentLabel": {
@@ -1016,7 +1016,7 @@
     "description": "布局方向为水平的单选按钮。"
   },
   "menuContentLayoutDirectionHorizontalDescription": {
-    "message": "将页眉和书签并排堆叠成一行。",
+    "message": "将头部和书签并排堆叠成一行。",
     "description": "布局方向为水平的帮助文本。"
   },
   "menuContentLayoutDirectionVerticalLabel": {
@@ -1024,23 +1024,23 @@
     "description": "布局方向为垂直的单选按钮。"
   },
   "menuContentLayoutDirectionVerticalDescription": {
-    "message": "将页眉和书签上下堆叠成一列。",
+    "message": "将头部和书签上下堆叠成一列。",
     "description": "布局方向为垂直的帮助文本。"
   },
   "menuContentLayoutOrderHeaderBookmarkLabel": {
-    "message": "页眉优先",
-    "description": "布局顺序为页眉优先的单选按钮。"
+    "message": "头部优先",
+    "description": "布局顺序为头部优先的单选按钮。"
   },
   "menuContentLayoutOrderHeaderBookmarkDescription": {
-    "message": "将页眉区域排序为显示在书签区域之前。",
-    "description": "布局顺序为页眉优先的帮助文本。"
+    "message": "将头部区域排序为显示在书签区域之前。",
+    "description": "布局顺序为头部优先的帮助文本。"
   },
   "menuContentLayoutOrderBookmarkHeaderLabel": {
     "message": "书签优先",
     "description": "布局顺序为书签优先的单选按钮。"
   },
   "menuContentLayoutOrderBookmarkHeaderDescription": {
-    "message": "将书签区域排序为显示在页眉区域之前。",
+    "message": "将书签区域排序为显示在头部区域之前。",
     "description": "布局顺序为书签优先的帮助文本。"
   },
   "menuContentLayoutPageTitleLabel": {
@@ -1100,108 +1100,108 @@
     "description": "超出滚动范围时取消模糊背景图片或视频的帮助文本。"
   },
   "menuContentHeaderAlignmentJustifyLabel": {
-    "message": "页眉项目对齐方式",
-    "description": "用于对齐页眉项目的标签。"
+    "message": "头部项目对齐方式",
+    "description": "用于对齐头部项目的标签。"
   },
   "menuContentHeaderAlignmentJustifyLeft": {
     "message": "左对齐",
-    "description": "用于将页眉项目左对齐的标签。"
+    "description": "用于将头部项目左对齐的标签。"
   },
   "menuContentHeaderAlignmentJustifyCenter": {
     "message": "居中",
-    "description": "用于将页眉项目居中对齐的标签。"
+    "description": "用于将头部项目居中对齐的标签。"
   },
   "menuContentHeaderAlignmentJustifyRight": {
     "message": "右对齐",
-    "description": "用于将页眉项目右对齐的标签。"
+    "description": "用于将头部项目右对齐的标签。"
   },
   "menuContentHeaderAlignmentHelperPara1": {
     "message": "如果搜索框尺寸设置为“自动”并增大以填充可用空间，则效果可能不可见。",
-    "description": "用于对齐页眉项目的帮助文本。"
+    "description": "用于对齐头部项目的帮助文本。"
   },
   "menuContentHeaderGreetingShow": {
     "message": "显示问候语",
-    "description": "用于显示页眉问候语的复选框。"
+    "description": "用于显示头部问候语的复选框。"
   },
   "menuContentHeaderGreetingSize": {
     "message": "尺寸",
-    "description": "页眉问候语尺寸的范围。"
+    "description": "头部问候语尺寸的范围。"
   },
   "menuContentHeaderGreetingNewLineLabel1": {
     "message": "显示最近使用",
     "description": "显示最近使用的相关标签。"
   },
   "menuContentHeaderGreetingNewLineDescription1": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
-    "description": "强制页眉问候语另起一行的描述。"
+    "message": "强制另起一行并与其他头部项目分隔开。",
+    "description": "强制头部问候语另起一行的描述。"
   },
   "menuContentHeaderGreetingNewLineLabel": {
     "message": "另起一行",
-    "description": "强制页眉问候语另起一行的复选框。"
+    "description": "强制头部问候语另起一行的复选框。"
   },
   "menuContentHeaderGreetingNewLineDescription": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
-    "description": "强制页眉问候语另起一行的描述。"
+    "message": "强制另起一行并与其他头部项目分隔开。",
+    "description": "强制头部问候语另起一行的描述。"
   },
   "menuContentHeaderGreetingTypeLabel": {
     "message": "措辞",
-    "description": "页眉问候语的标签。"
+    "description": "头部问候语的标签。"
   },
   "menuContentHeaderGreetingTypeGood": {
     "message": "“早上好……”",
-    "description": "“早上好”页眉问候语的单选按钮。"
+    "description": "“早上好”头部问候语的单选按钮。"
   },
   "menuContentHeaderGreetingTypeHello": {
     "message": "“你好……”",
-    "description": "“你好”页眉问候语的单选按钮。"
+    "description": "“你好”头部问候语的单选按钮。"
   },
   "menuContentHeaderGreetingTypeHi": {
     "message": "“嗨……”",
-    "description": "“嗨”页眉问候语的单选按钮。"
+    "description": "“嗨”头部问候语的单选按钮。"
   },
   "menuContentHeaderGreetingTypeNoneLabel": {
     "message": "无",
-    "description": "无页眉问候语的单选按钮。"
+    "description": "无头部问候语的单选按钮。"
   },
   "menuContentHeaderGreetingTypeNoneDescription": {
     "message": "仅显示名称时很有用。",
-    "description": "无页眉问候语的描述。"
+    "description": "无头部问候语的描述。"
   },
   "menuContentHeaderGreetingTypeCustomLabel": {
     "message": "自定义",
-    "description": "自定义页眉问候语的单选按钮。"
+    "description": "自定义头部问候语的单选按钮。"
   },
   "menuContentHeaderGreetingTypeCustomDescriptionPara1": {
     "message": "使用您自己的问候语。",
-    "description": "自定义页眉问候语的描述。"
+    "description": "自定义头部问候语的描述。"
   },
   "menuContentHeaderGreetingTypeCustomDescriptionPara2": {
     "message": "如果留空，则默认为“早上好……”。",
-    "description": "自定义页眉问候语的描述。"
+    "description": "自定义头部问候语的描述。"
   },
   "menuContentHeaderGreetingCustomLabel": {
     "message": "自定义问候语文本",
-    "description": "自定义页眉问候语的标签。"
+    "description": "自定义头部问候语的标签。"
   },
   "menuContentHeaderGreetingCustomPlaceholder": {
     "message": "你好呀",
-    "description": "自定义页眉问候语的占位符。"
+    "description": "自定义头部问候语的占位符。"
   },
   "menuContentHeaderGreetingNameLabel": {
     "message": "名称",
-    "description": "页眉问候语名称的输入框。"
+    "description": "头部问候语名称的输入框。"
   },
   "menuContentHeaderGreetingNamePlaceholder": {
     "message": "昵称、别名或超级英雄名称",
-    "description": "页眉问候语名称的占位符。"
+    "description": "头部问候语名称的占位符。"
   },
   "menuContentHeaderTransitionalShowLabel": {
     "message": "显示过渡词",
-    "description": "显示页眉过渡文本的复选框。"
+    "description": "显示头部过渡文本的复选框。"
   },
   "menuContentHeaderTransitionalShowHelperPara1": {
     "message": "仅当显示日期或时间时可用。",
-    "description": "页眉过渡文本的帮助文本。"
+    "description": "头部过渡文本的帮助文本。"
   },
   "menuContentHeaderTransitionalTypeLabel": {
     "message": "措辞",
@@ -1224,7 +1224,7 @@
     "description": "强制过渡文本另起一行的复选框。"
   },
   "menuContentHeaderTransitionalNewLineDescription": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "message": "强制另起一行并与其他头部项目分隔开。",
     "description": "强制过渡文本另起一行的描述。"
   },
   "menuContentHeaderClockHourShow": {
@@ -1292,7 +1292,7 @@
     "description": "强制时钟另起一行的复选框。"
   },
   "menuContentHeaderClockNewLineDescription": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "message": "强制另起一行并与其他头部项目分隔开。",
     "description": "强制时钟另起一行的描述。"
   },
   "menuContentHeaderDateDayShow": {
@@ -1420,7 +1420,7 @@
     "description": "强制日期另起一行的复选框。"
   },
   "menuContentHeaderDateNewLineDescription": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "message": "强制另起一行并与其他头部项目分隔开。",
     "description": "强制日期另起一行的描述。"
   },
   "menuContentHeaderSearchShow": {
@@ -1444,7 +1444,7 @@
     "description": "自定义搜索宽度的单选按钮。"
   },
   "menuContentHeaderSearchWidthCustomDescription": {
-    "message": "定义搜索框在页眉区域内应有多宽。",
+    "message": "定义搜索框在头部区域内应有多宽。",
     "description": "自定义搜索宽度的描述。"
   },
   "menuContentHeaderSearchWidthSize": {
@@ -1460,7 +1460,7 @@
     "description": "强制搜索另起一行的复选框。"
   },
   "menuContentHeaderSearchNewLineDescription": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "message": "强制另起一行并与其他头部项目分隔开。",
     "description": "强制搜索另起一行的描述。"
   },
   "menuContentHeaderSearchEngineSelectedLabel": {
@@ -1708,11 +1708,11 @@
     "description": "书签分组工具栏在角落的单选按钮。"
   },
   "menuContentToolbarLocationHeader": {
-    "message": "在页眉中",
-    "description": "书签分组工具栏在页眉中的单选按钮。"
+    "message": "在头部中",
+    "description": "书签分组工具栏在头部中的单选按钮。"
   },
   "menuContentToolbarLocationHelperPara1": {
-    "message": "将工具栏放置在页眉内或窗口的角落。",
+    "message": "将工具栏放置在头部内或窗口的角落。",
     "description": "工具栏位置的帮助文本。"
   },
   "menuContentToolbarLocationNewLineLabel": {
@@ -1720,11 +1720,11 @@
     "description": "强制书签分组工具栏另起一行的复选框。"
   },
   "menuContentToolbarLocationNewLineDescription": {
-    "message": "强制另起一行并与其他页眉项目分隔开。",
+    "message": "强制另起一行并与其他头部项目分隔开。",
     "description": "强制书签分组工具栏另起一行的描述。"
   },
   "menuContentToolbarLocationNewLineHelperPara1": {
-    "message": "仅当工具栏位于页眉内时可用。",
+    "message": "仅当工具栏位于头部内时可用。",
     "description": "书签分组工具栏另起一行的帮助文本。"
   },
   "menuContentToolbarPositionLabel": {
@@ -2676,7 +2676,7 @@
     "description": "从备份数据恢复设置数据的标签。"
   },
   "dataFormSetupIncludeDescription": {
-    "message": "这包括布局尺寸和位置、页眉区域尺寸、书签区域尺寸和其他用户设置。",
+    "message": "这包括布局尺寸和位置、头部区域尺寸、书签区域尺寸和其他用户设置。",
     "description": "从备份数据恢复设置数据的描述。"
   },
   "dataRestoreHeading": {

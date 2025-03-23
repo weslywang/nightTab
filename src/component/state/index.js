@@ -57,7 +57,7 @@ state.default = {
     },
     recentbookmarks: {
       show: true,
-      items: [{href: 'https://www.google.com/', title: 'Google'},{href: 'https://www.google.com/', title: 'Google'}]
+      items: []
     },
     order: [],
     edit: false
